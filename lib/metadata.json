@@ -1,6 +1,6 @@
 {
   "vaultName": "Congzhi's Notes Vault",
-  "lastExport": 1742931492474,
+  "lastExport": 1743022461166,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-light show-inline-title show-ribbon",
   "useCustomHeadContent": false,
@@ -11,9 +11,8 @@
     "游记/游记.md",
     "Building and Version Control/1. Compilation.md",
     "Building and Version Control/2. Linking.md",
-    "Building and Version Control/3. A Normal Project Structure.md",
-    "Building and Version Control/4. Makefile and Building System.md",
-    "Building and Version Control/5. CMake.md",
+    "Building and Version Control/3. Building System and Makefile.md",
+    "Building and Version Control/4. CMake.md",
     "Building and Version Control/5. Release Build and Debug Build.md",
     "Building and Version Control/Building and Version Control.md",
     "Building and Version Control/Git and Github (Part I).md",
@@ -376,6 +375,7 @@
     "Congzhi's OS Series/pics/Pasted image 20250128190859.png",
     "Congzhi's OS Series/pics/ssd.jpg",
     "Congzhi's OS Series/pics/this_is_fine.jpg",
+    "Congzhi's OS Series/pics/valhalla.jpg",
     "Congzhi's OS Series/1. Introduction to the OS.md",
     "Congzhi's OS Series/2. OS Development Stages.md",
     "Congzhi's OS Series/3. Operating System Structures.md",
@@ -438,12 +438,12 @@
     "Some Notes/Intro to Algorithm.md",
     "Some Notes/ISA, Instructions and CPU.md",
     "Some Notes/Real-Basic Algorithm Concepts.md",
+    "Some Notes/Redis at a Peek.md",
     "Some Notes/Some Notes.md",
     "Some Notes/Three Steps to Have Your Own Obsidian Site.md",
     "Some Notes/YOLO Env Config.md",
     "index.md",
     "lib/media/pasted-image-20250322033111.png",
-    "lib/media/pasted-image-20250322232054.png",
     "lib/scripts/graph-wasm.wasm",
     "lib/fonts/94f2f163d4b698242fef.otf",
     "lib/fonts/72505e6a122c6acd5471.woff2",
@@ -494,7 +494,300 @@
     "lib/styles/obsidian.css",
     "lib/styles/other-plugins.css",
     "lib/styles/global-variable-styles.css",
-    "lib/styles/main-styles.css"
+    "lib/styles/main-styles.css",
+    "c-plus-plus/pics/align_ex.png",
+    "c-plus-plus/pics/align_ex2.png",
+    "c-plus-plus/pics/call_stack.png",
+    "c-plus-plus/pics/stack_under_the_hood.png",
+    "c-plus-plus/pics/std_ascii.png",
+    "c-plus-plus/pics/string_literal.png",
+    "c-plus-plus/pics/pasted-image-20250225102217.png",
+    "c-plus-plus/pics/linked_block.png",
+    "c-plus-plus/pics/malloc_map.png",
+    "c-plus-plus/pics/pasted-image-20250111194242.png",
+    "c-plus-plus/pics/pasted-image-20250111204014.png",
+    "c-plus-plus/pics/pasted-image-20250111204033.png",
+    "c-plus-plus/pics/pasted-image-20241023154500.png",
+    "c-plus-plus/pics/pasted-image-20241023153930.png",
+    "c-plus-plus/pics/pasted-image-20241023154839.png",
+    "c-plus-plus/pics/pasted-image-20241023155605.png",
+    "c-plus-plus/pics/pasted-image-20241024004507.png",
+    "c-plus-plus/pics/pasted-image-20241024005717.png",
+    "c-plus-plus/pics/pasted-image-20241024015023.png",
+    "c-plus-plus/pics/pasted-image-20241024145414.png",
+    "c-plus-plus/pics/pasted-image-20241024145703.png",
+    "c-plus-plus/pics/pasted-image-20241214224127.png",
+    "c-plus-plus/pics/pasted-image-20241214224219.png",
+    "c-plus-plus/pics/member_union.png",
+    "lib/media/pasted-image-20250322232054.png",
+    "c-plus-plus/pics/vtable.png",
+    "c-plus-plus/pics/pasted-image-20241009225008.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240511220056.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240512121540.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240512142716.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240513201503.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240513205240.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240514001832.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240514003252.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240514003303.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240512143000.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240512155342.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240512161340.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240512184019.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240512204230.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240514163345.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240518004728.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240518145801.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240519002020.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240519004302.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240519010954.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240519131546.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240519150643.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240521003828.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240527021928.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240527032107.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240527174749.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240528195845.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240528210914.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240603225246.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240604010021.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240605003249.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240605012506.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240605013943.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240605160542.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240605164341.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240605212341.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240608041543.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240609005629.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240612014451.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240618164507.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240618185617.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240619182044.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240620183658.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240620192758.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240620202147.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240622153238.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240622164243.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240704180831.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240705114457.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240705115300.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240705151453.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240707015702.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240707150002.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240709001051.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240709003932.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240709230729.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240710003357.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240710191219.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240712160221.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240715175100.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240715220352.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240715234126.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240715234140.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240715235048.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240715235100.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240718000203.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240718003101.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240718003522.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240718014251.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240718014358.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240720004907.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240720033306.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240720033322.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240720042336.png",
+    "computer-networking-a-top-down-approach/pics/屏幕截图-2024-07-21-161530.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240721225159.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240722010246.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240722021917.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240725192031.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240726044658.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240727043719.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240727055138.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240811181317.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240812102024.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240812120639.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240812120931.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240812144354.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240608075456.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240608080032.png",
+    "congzhi's-os-series/pics/pasted-image-20240921032501.png",
+    "congzhi's-os-series/pics/pasted-image-20241123001548.jpg",
+    "congzhi's-os-series/pics/pasted-image-20240405005008.png",
+    "congzhi's-os-series/pics/pasted-image-20240411000024.png",
+    "congzhi's-os-series/pics/pasted-image-20240410013933.png",
+    "congzhi's-os-series/pics/pasted-image-20240410020645.png",
+    "congzhi's-os-series/pics/pasted-image-20240912161341.png",
+    "congzhi's-os-series/pics/pasted-image-20240912162841.png",
+    "congzhi's-os-series/pics/pasted-image-20240501224716.png",
+    "congzhi's-os-series/pics/pasted-image-20240501230701.png",
+    "congzhi's-os-series/pics/pasted-image-20240925014738.png",
+    "congzhi's-os-series/pics/pasted-image-20240925014813.png",
+    "congzhi's-os-series/pics/pasted-image-20240924165346.png",
+    "congzhi's-os-series/pics/pasted-image-20240501235413.png",
+    "congzhi's-os-series/pics/pasted-image-20240925015122.png",
+    "congzhi's-os-series/pics/memory-hierarchy.png",
+    "congzhi's-os-series/pics/pasted-image-20241214172755.jpg",
+    "congzhi's-os-series/pics/booting-process.png",
+    "congzhi's-os-series/pics/pasted-image-20240406183909.png",
+    "congzhi's-os-series/pics/pasted-image-20240827160217.png",
+    "congzhi's-os-series/pics/pasted-image-20240924013452.png",
+    "congzhi's-os-series/pics/0212511f66bbc3e3312972413e91a87c.webp",
+    "congzhi's-os-series/pics/pasted-image-20240724122510.jpg",
+    "congzhi's-os-series/pics/pasted-image-20240820022709.png",
+    "congzhi's-os-series/pics/pasted-image-20250127044801.png",
+    "congzhi's-os-series/pics/pasted-image-20240913230021.png",
+    "congzhi's-os-series/pics/pasted-image-20240423213215.png",
+    "congzhi's-os-series/pics/pasted-image-20241110161041.png",
+    "congzhi's-os-series/pics/pasted-image-20240928001613.png",
+    "congzhi's-os-series/pics/pasted-image-20240509165620.png",
+    "congzhi's-os-series/pics/pasted-image-20250113004224.jpg",
+    "congzhi's-os-series/pics/pasted-image-20241130180123.jpg",
+    "congzhi's-os-series/pics/pasted-image-20241130182530.jpg",
+    "congzhi's-os-series/pics/pasted-image-20241018163535.png",
+    "congzhi's-os-series/pics/pasted-image-20241130023834.jpg",
+    "congzhi's-os-series/pics/pasted-image-20241130023659.jpg",
+    "congzhi's-os-series/pics/pasted-image-20241018191021.jpg",
+    "congzhi's-os-series/pics/pasted-image-20250128013013.png",
+    "congzhi's-os-series/pics/pasted-image-20241018205838.png",
+    "congzhi's-os-series/pics/pasted-image-20241018203144.png",
+    "congzhi's-os-series/pics/pasted-image-20241018204321.png",
+    "congzhi's-os-series/pics/pasted-image-20241018205735.png",
+    "congzhi's-os-series/pics/pasted-image-20241018202903.png",
+    "congzhi's-os-series/pics/pasted-image-20241130023253.jpg",
+    "congzhi's-os-series/pics/mmap.png",
+    "congzhi's-os-series/pics/pasted-image-20250128190859.png",
+    "congzhi's-os-series/pics/pasted-image-20241204003952.jpg",
+    "congzhi's-os-series/pics/pasted-image-20241203215622.jpg",
+    "congzhi's-os-series/pics/pasted-image-20241204011034.jpg",
+    "congzhi's-os-series/pics/pasted-image-20241204011053.jpg",
+    "congzhi's-os-series/pics/pasted-image-20241204011045.jpg",
+    "congzhi's-os-series/pics/pasted-image-20241204011100.jpg",
+    "congzhi's-os-series/pics/pasted-image-20241204011158.jpg",
+    "congzhi's-os-series/pics/pasted-image-20250113014249.jpg",
+    "congzhi's-os-series/pics/pasted-image-20241203220443.jpg",
+    "congzhi's-os-series/pics/pasted-image-20241203220449.jpg",
+    "congzhi's-os-series/pics/pasted-image-20240905160146.png",
+    "congzhi's-os-series/pics/pasted-image-20250112233950.png",
+    "congzhi's-os-series/pics/pasted-image-20240528012310.png",
+    "congzhi's-os-series/pics/pasted-image-20250112184625.png",
+    "congzhi's-os-series/pics/pasted-image-20241003233336.png",
+    "congzhi's-os-series/pics/pasted-image-20241004014342.png",
+    "congzhi's-os-series/pics/pasted-image-20241004021149.png",
+    "congzhi's-os-series/pics/pasted-image-20250112055229.png",
+    "congzhi's-os-series/pics/hyper.webp",
+    "congzhi's-os-series/pics/pasted-image-20250112042240.jpg",
+    "congzhi's-os-series/pics/pasted-image-20250114004941.jpg",
+    "congzhi's-os-series/pics/pasted-image-20250114013155.png",
+    "congzhi's-os-series/pics/this_is_fine.jpg",
+    "congzhi's-os-series/pics/pasted-image-20240701005315.png",
+    "congzhi's-os-series/pics/pasted-image-20241104161252.png",
+    "congzhi's-os-series/pics/pasted-image-20240716220750.png",
+    "congzhi's-os-series/pics/pasted-image-20240716230346.png",
+    "congzhi's-os-series/pics/pasted-image-20240717125542.jpg",
+    "congzhi's-os-series/pics/pasted-image-20240717142805.jpg",
+    "congzhi's-os-series/pics/pasted-image-20240723100243.jpg",
+    "congzhi's-os-series/pics/pasted-image-20240723165143.jpg",
+    "congzhi's-os-series/pics/pasted-image-20240723165716.jpg",
+    "congzhi's-os-series/pics/pasted-image-20240723170556.jpg",
+    "congzhi's-os-series/pics/pasted-image-20240723172000.jpg",
+    "congzhi's-os-series/pics/pasted-image-20241102225956.png",
+    "congzhi's-os-series/pics/pasted-image-20241102231911.png",
+    "congzhi's-os-series/pics/pasted-image-20241103015057.jpg",
+    "congzhi's-os-series/pics/pasted-image-20240723182429.png",
+    "congzhi's-os-series/pics/pasted-image-20240728054403.png",
+    "congzhi's-os-series/pics/pasted-image-20240729010510.png",
+    "congzhi's-os-series/pics/pasted-image-20240729033616.png",
+    "congzhi's-os-series/pics/pasted-image-20240729035023.png",
+    "congzhi's-os-series/pics/pasted-image-20240729180635.png",
+    "congzhi's-os-series/pics/pasted-image-20240729183709.png",
+    "congzhi's-os-series/pics/pasted-image-20240729201529.png",
+    "congzhi's-os-series/pics/pasted-image-20240729201908.png",
+    "congzhi's-os-series/pics/pasted-image-20240730015834.png",
+    "congzhi's-os-series/pics/pasted-image-20240730033638.png",
+    "congzhi's-os-series/pics/pasted-image-20240730092536.png",
+    "congzhi's-os-series/pics/pasted-image-20240730215541.jpg",
+    "congzhi's-os-series/pics/pasted-image-20240730220832.jpg",
+    "congzhi's-os-series/pics/pasted-image-20240730223332.jpg",
+    "congzhi's-os-series/pics/pasted-image-20240730220817.jpg",
+    "congzhi's-os-series/pics/pasted-image-20240730221149.jpg",
+    "congzhi's-os-series/pics/pasted-image-20240801010828.png",
+    "congzhi's-os-series/pics/pasted-image-20240730220934.jpg",
+    "congzhi's-os-series/pics/pasted-image-20240801075550.png",
+    "congzhi's-os-series/pics/pasted-image-20240801075704.png",
+    "congzhi's-os-series/pics/pasted-image-20240805013618.png",
+    "congzhi's-os-series/pics/pasted-image-20240801081814.jpg",
+    "congzhi's-os-series/pics/pasted-image-20240805022104.png",
+    "congzhi's-os-series/pics/pasted-image-20240924011424.jpg",
+    "congzhi's-os-series/pics/pasted-image-20240814201027.png",
+    "congzhi's-os-series/pics/pasted-image-20240814203923.png",
+    "congzhi's-os-series/pics/pasted-image-20241123015750.jpg",
+    "congzhi's-os-series/pics/pasted-image-20240923222601.png",
+    "congzhi's-os-series/pics/pasted-image-20240923230804.png",
+    "congzhi's-os-series/pics/pasted-image-20240923230816.png",
+    "congzhi's-os-series/pics/pasted-image-20241112175054.png",
+    "congzhi's-os-series/pics/pasted-image-20240808004636.png",
+    "congzhi's-os-series/pics/pasted-image-20240924163417.png",
+    "congzhi's-os-series/pics/pasted-image-20240925010529.png",
+    "congzhi's-os-series/pics/pasted-image-20240925004924.png",
+    "congzhi's-os-series/pics/pasted-image-20240924020957.png",
+    "congzhi's-os-series/pics/pasted-image-20240924021026.png",
+    "congzhi's-os-series/pics/pasted-image-20240924023629.png",
+    "congzhi's-os-series/pics/pasted-image-20241121010744.jpg",
+    "congzhi's-os-series/pics/pasted-image-20241124023333.jpg",
+    "congzhi's-os-series/pics/pasted-image-20241121021731.jpg",
+    "congzhi's-os-series/pics/pasted-image-20241123043749.png",
+    "congzhi's-os-series/pics/pasted-image-20241123190040.jpg",
+    "congzhi's-os-series/pics/pasted-image-20241123042009.jpg",
+    "congzhi's-os-series/pics/pasted-image-20241121010724.jpg",
+    "congzhi's-os-series/pics/pasted-image-20241121010947.jpg",
+    "congzhi's-os-series/pics/pasted-image-20241121010449.jpg",
+    "congzhi's-os-series/pics/pasted-image-20241121010924.jpg",
+    "congzhi's-os-series/pics/pasted-image-20241125035405.jpg",
+    "congzhi's-os-series/pics/pasted-image-20241121021143.jpg",
+    "congzhi's-os-series/pics/pasted-image-20241124024405.jpg",
+    "congzhi's-os-series/pics/hhd.jpg",
+    "congzhi's-os-series/pics/ssd.jpg",
+    "congzhi's-os-series/pics/pasted-image-20241126212945.jpg",
+    "congzhi's-os-series/pics/pasted-image-20240824180225.png",
+    "congzhi's-os-series/pics/pasted-image-20240824184231.png",
+    "congzhi's-os-series/pics/pasted-image-20241127205724.jpg",
+    "congzhi's-os-series/pics/pasted-image-20241128230955.jpg",
+    "congzhi's-os-series/pics/pasted-image-20241018011136.png",
+    "congzhi's-os-series/pics/pasted-image-20241202010255.jpg",
+    "congzhi's-os-series/pics/pasted-image-20241202010304.jpg",
+    "congzhi's-os-series/pics/pasted-image-20241202010310.jpg",
+    "congzhi's-os-series/pics/pasted-image-20241202010318.jpg",
+    "congzhi's-os-series/pics/pasted-image-20241202231218.jpg",
+    "congzhi's-os-series/pics/pasted-image-20240831003914.jpg",
+    "congzhi's-os-series/pics/pasted-image-20241202002753.jpg",
+    "congzhi's-os-series/pics/pasted-image-20241202002801.jpg",
+    "congzhi's-os-series/pics/pasted-image-20240825132025.png",
+    "congzhi's-os-series/pics/pasted-image-20240825132044.png",
+    "congzhi's-os-series/pics/pasted-image-20240825132254.png",
+    "congzhi's-os-series/pics/pasted-image-20241128030948.jpg",
+    "congzhi's-os-series/pics/pasted-image-20240826135306.png",
+    "congzhi's-os-series/pics/pasted-image-20240826135310.png",
+    "congzhi's-os-series/pics/pasted-image-20240826173012.png",
+    "congzhi's-os-series/pics/pasted-image-20240825132134.png",
+    "congzhi's-os-series/pics/pasted-image-20241205203358.png",
+    "congzhi's-os-series/pics/pasted-image-20240825181709.png",
+    "congzhi's-os-series/pics/pasted-image-20241207162851.png",
+    "congzhi's-os-series/pics/pasted-image-20241207225739.png",
+    "congzhi's-os-series/pics/pasted-image-20250121002345.jpg",
+    "congzhi's-os-series/pics/pasted-image-20240925014938.png",
+    "congzhi's-os-series/pics/pasted-image-20240925014933.png",
+    "congzhi's-os-series/pics/pasted-image-20240925021538.png",
+    "congzhi's-os-series/pics/pasted-image-20250121030340.png",
+    "some-notes/pics/pasted-image-20240812173423.png",
+    "some-notes/pics/pasted-image-20240812172331.png",
+    "some-notes/pics/pasted-image-20240916212548.png",
+    "some-notes/pics/pasted-image-20240926140732.png",
+    "some-notes/pics/pasted-image-20240928003748.png",
+    "some-notes/pics/pasted-image-20240930154026.png",
+    "some-notes/pics/pasted-image-20240916181307.png",
+    "some-notes/pics/bit-endian-1.gif",
+    "some-notes/pics/cuda_version.png",
+    "some-notes/pics/pasted-image-20250318224527.png"
   ],
   "mainDependencies": [
     "lib/scripts/graph-wasm.wasm",
@@ -569,35 +862,15 @@
       "dependencies": []
     },
     "Building and Version Control/1. Compilation.md": {
-      "modifiedTime": 1742931492474,
-      "sourceSize": 5156,
+      "modifiedTime": 1743022461166,
+      "sourceSize": 5669,
       "exportedPath": "building-and-version-control/1.-compilation.html",
       "dependencies": []
     },
     "Building and Version Control/2. Linking.md": {
-      "modifiedTime": 1742931492474,
-      "sourceSize": 24,
+      "modifiedTime": 1743022461166,
+      "sourceSize": 1320,
       "exportedPath": "building-and-version-control/2.-linking.html",
-      "dependencies": []
-    },
-    "Building and Version Control/3. A Normal Project Structure.md": {
-      "modifiedTime": 1742931492474,
-      "sourceSize": 2127,
-      "exportedPath": "building-and-version-control/3.-a-normal-project-structure.html",
-      "dependencies": []
-    },
-    "Building and Version Control/4. Makefile and Building System.md": {
-      "modifiedTime": 1742931492474,
-      "sourceSize": 4628,
-      "exportedPath": "building-and-version-control/4.-makefile-and-building-system.html",
-      "dependencies": [
-        "lib/media/pasted-image-20250322033111.png"
-      ]
-    },
-    "Building and Version Control/5. CMake.md": {
-      "modifiedTime": 1742931492474,
-      "sourceSize": 24,
-      "exportedPath": "building-and-version-control/5.-cmake.html",
       "dependencies": []
     },
     "Building and Version Control/5. Release Build and Debug Build.md": {
@@ -607,8 +880,8 @@
       "dependencies": []
     },
     "Building and Version Control/Building and Version Control.md": {
-      "modifiedTime": 1742931492474,
-      "sourceSize": 945,
+      "modifiedTime": 1743022461166,
+      "sourceSize": 968,
       "exportedPath": "building-and-version-control/building-and-version-control.html",
       "dependencies": []
     },
@@ -802,14 +1075,14 @@
       "dependencies": []
     },
     "C Plus Plus/C Plus Plus.md": {
-      "modifiedTime": 1742931492474,
-      "sourceSize": 3735,
+      "modifiedTime": 1743022461166,
+      "sourceSize": 3757,
       "exportedPath": "c-plus-plus/c-plus-plus.html",
       "dependencies": []
     },
     "C Plus Plus/Call Stack in C++ (ENG).md": {
-      "modifiedTime": 1742931492474,
-      "sourceSize": 7198,
+      "modifiedTime": 1743022461166,
+      "sourceSize": 7190,
       "exportedPath": "c-plus-plus/call-stack-in-c++-(eng).html",
       "dependencies": [
         "c-plus-plus/pics/call_stack.png",
@@ -1855,8 +2128,8 @@
       ]
     },
     "Computer Networking A Top-Down Approach/Computer Networking A Top-Down Approach.md": {
-      "modifiedTime": 1742931492474,
-      "sourceSize": 455,
+      "modifiedTime": 1743022461166,
+      "sourceSize": 477,
       "exportedPath": "computer-networking-a-top-down-approach/computer-networking-a-top-down-approach.html",
       "dependencies": []
     },
@@ -3195,20 +3468,22 @@
       ]
     },
     "Congzhi's OS Series/Congzhi's OS Series.md": {
-      "modifiedTime": 1742931492474,
-      "sourceSize": 2392,
+      "modifiedTime": 1743022461166,
+      "sourceSize": 2414,
       "exportedPath": "congzhi's-os-series/congzhi's-os-series.html",
       "dependencies": []
     },
     "Congzhi's OS Series/T1. Valgrind and Helgrind.md": {
-      "modifiedTime": 1742931492474,
-      "sourceSize": 0,
+      "modifiedTime": 1743022461166,
+      "sourceSize": 2157,
       "exportedPath": "congzhi's-os-series/t1.-valgrind-and-helgrind.html",
-      "dependencies": []
+      "dependencies": [
+        "congzhi's-os-series/pics/valhalla.jpg"
+      ]
     },
     "CS50 SQL/CS50 SQL.md": {
-      "modifiedTime": 1742931492474,
-      "sourceSize": 1498,
+      "modifiedTime": 1743022461166,
+      "sourceSize": 1520,
       "exportedPath": "cs50-sql/cs50-sql.html",
       "dependencies": []
     },
@@ -3261,14 +3536,14 @@
       "dependencies": []
     },
     "Data Structure and Algorithm/Data Structure and Algorithm.md": {
-      "modifiedTime": 1742931492474,
-      "sourceSize": 712,
+      "modifiedTime": 1743022461166,
+      "sourceSize": 734,
       "exportedPath": "data-structure-and-algorithm/data-structure-and-algorithm.html",
       "dependencies": []
     },
     "Data Structure and Algorithm/DS. B Tree.md": {
-      "modifiedTime": 1742931492474,
-      "sourceSize": 0,
+      "modifiedTime": 1743022461166,
+      "sourceSize": 5297,
       "exportedPath": "data-structure-and-algorithm/ds.-b-tree.html",
       "dependencies": []
     },
@@ -3279,8 +3554,8 @@
       "dependencies": []
     },
     "Data Structure and Algorithm/DS. Red-Black Tree.md": {
-      "modifiedTime": 1742931492474,
-      "sourceSize": 4285,
+      "modifiedTime": 1743022461166,
+      "sourceSize": 4524,
       "exportedPath": "data-structure-and-algorithm/ds.-red-black-tree.html",
       "dependencies": []
     },
@@ -3333,8 +3608,8 @@
       "dependencies": []
     },
     "Data Structure and Algorithm/SA. Bubble Sort.md": {
-      "modifiedTime": 1742931492474,
-      "sourceSize": 598,
+      "modifiedTime": 1743022461166,
+      "sourceSize": 656,
       "exportedPath": "data-structure-and-algorithm/sa.-bubble-sort.html",
       "dependencies": []
     },
@@ -3470,8 +3745,8 @@
       "dependencies": []
     },
     "Some Notes/Some Notes.md": {
-      "modifiedTime": 1742931492474,
-      "sourceSize": 642,
+      "modifiedTime": 1743022461166,
+      "sourceSize": 688,
       "exportedPath": "some-notes/some-notes.html",
       "dependencies": []
     },
@@ -3491,13 +3766,13 @@
       ]
     },
     "index.md": {
-      "modifiedTime": 1742931492474,
-      "sourceSize": 1616,
+      "modifiedTime": 1743022461166,
+      "sourceSize": 1615,
       "exportedPath": "index.html",
       "dependencies": []
     },
     "lib/media/pasted-image-20250322033111.png": {
-      "modifiedTime": 1742931492474,
+      "modifiedTime": 1743022461166,
       "sourceSize": 234488,
       "exportedPath": "lib/media/pasted-image-20250322033111.png",
       "dependencies": []
@@ -3515,13 +3790,13 @@
       "dependencies": []
     },
     "c-plus-plus/pics/call_stack.png": {
-      "modifiedTime": 1742931492474,
+      "modifiedTime": 1743022461166,
       "sourceSize": 80682,
       "exportedPath": "c-plus-plus/pics/call_stack.png",
       "dependencies": []
     },
     "c-plus-plus/pics/stack_under_the_hood.png": {
-      "modifiedTime": 1742931492474,
+      "modifiedTime": 1743022461166,
       "sourceSize": 62026,
       "exportedPath": "c-plus-plus/pics/stack_under_the_hood.png",
       "dependencies": []
@@ -5261,309 +5536,341 @@
       "dependencies": []
     },
     "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1742931492474,
+      "modifiedTime": 1743022461166,
       "sourceSize": 23377,
       "exportedPath": "lib/scripts/graph-wasm.wasm",
       "dependencies": []
     },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1742931492474,
+      "modifiedTime": 1743022461166,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1742931492474,
+      "modifiedTime": 1743022461166,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1742931492474,
+      "modifiedTime": 1743022461166,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1742931492474,
+      "modifiedTime": 1743022461166,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1742931492474,
+      "modifiedTime": 1743022461166,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1742931492474,
+      "modifiedTime": 1743022461166,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1742931492474,
+      "modifiedTime": 1743022461166,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1742931492474,
+      "modifiedTime": 1743022461166,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1742931492474,
+      "modifiedTime": 1743022461166,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1742931492474,
+      "modifiedTime": 1743022461166,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1742931492474,
+      "modifiedTime": 1743022461166,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1742931492474,
+      "modifiedTime": 1743022461166,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1742931492474,
+      "modifiedTime": 1743022461166,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/6155340132a851f6089e.svg": {
-      "modifiedTime": 1742931492474,
+      "modifiedTime": 1743022461166,
       "sourceSize": 315,
       "exportedPath": "lib/media/6155340132a851f6089e.svg",
       "dependencies": []
     },
     "lib/fonts/mathjax_zero.woff": {
-      "modifiedTime": 1742931492474,
+      "modifiedTime": 1743022461166,
       "sourceSize": 1368,
       "exportedPath": "lib/fonts/mathjax_zero.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_main-regular.woff": {
-      "modifiedTime": 1742931492474,
+      "modifiedTime": 1743022461166,
       "sourceSize": 34160,
       "exportedPath": "lib/fonts/mathjax_main-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_main-bold.woff": {
-      "modifiedTime": 1742931492474,
+      "modifiedTime": 1743022461166,
       "sourceSize": 34464,
       "exportedPath": "lib/fonts/mathjax_main-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_math-italic.woff": {
-      "modifiedTime": 1742931492474,
+      "modifiedTime": 1743022461166,
       "sourceSize": 19360,
       "exportedPath": "lib/fonts/mathjax_math-italic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_main-italic.woff": {
-      "modifiedTime": 1742931492474,
+      "modifiedTime": 1743022461166,
       "sourceSize": 20832,
       "exportedPath": "lib/fonts/mathjax_main-italic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_math-bolditalic.woff": {
-      "modifiedTime": 1742931492474,
+      "modifiedTime": 1743022461166,
       "sourceSize": 19776,
       "exportedPath": "lib/fonts/mathjax_math-bolditalic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size1-regular.woff": {
-      "modifiedTime": 1742931492474,
+      "modifiedTime": 1743022461166,
       "sourceSize": 5792,
       "exportedPath": "lib/fonts/mathjax_size1-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size2-regular.woff": {
-      "modifiedTime": 1742931492474,
+      "modifiedTime": 1743022461166,
       "sourceSize": 5464,
       "exportedPath": "lib/fonts/mathjax_size2-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size3-regular.woff": {
-      "modifiedTime": 1742931492474,
+      "modifiedTime": 1743022461166,
       "sourceSize": 3244,
       "exportedPath": "lib/fonts/mathjax_size3-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size4-regular.woff": {
-      "modifiedTime": 1742931492474,
+      "modifiedTime": 1743022461166,
       "sourceSize": 5148,
       "exportedPath": "lib/fonts/mathjax_size4-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_ams-regular.woff": {
-      "modifiedTime": 1742931492474,
+      "modifiedTime": 1743022461166,
       "sourceSize": 40808,
       "exportedPath": "lib/fonts/mathjax_ams-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_calligraphic-regular.woff": {
-      "modifiedTime": 1742931492474,
+      "modifiedTime": 1743022461166,
       "sourceSize": 9600,
       "exportedPath": "lib/fonts/mathjax_calligraphic-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_calligraphic-bold.woff": {
-      "modifiedTime": 1742931492474,
+      "modifiedTime": 1743022461166,
       "sourceSize": 9908,
       "exportedPath": "lib/fonts/mathjax_calligraphic-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_fraktur-regular.woff": {
-      "modifiedTime": 1742931492474,
+      "modifiedTime": 1743022461166,
       "sourceSize": 21480,
       "exportedPath": "lib/fonts/mathjax_fraktur-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_fraktur-bold.woff": {
-      "modifiedTime": 1742931492474,
+      "modifiedTime": 1743022461166,
       "sourceSize": 22340,
       "exportedPath": "lib/fonts/mathjax_fraktur-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_sansserif-regular.woff": {
-      "modifiedTime": 1742931492474,
+      "modifiedTime": 1743022461166,
       "sourceSize": 12660,
       "exportedPath": "lib/fonts/mathjax_sansserif-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_sansserif-bold.woff": {
-      "modifiedTime": 1742931492474,
+      "modifiedTime": 1743022461166,
       "sourceSize": 15944,
       "exportedPath": "lib/fonts/mathjax_sansserif-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_sansserif-italic.woff": {
-      "modifiedTime": 1742931492474,
+      "modifiedTime": 1743022461166,
       "sourceSize": 14628,
       "exportedPath": "lib/fonts/mathjax_sansserif-italic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_script-regular.woff": {
-      "modifiedTime": 1742931492474,
+      "modifiedTime": 1743022461166,
       "sourceSize": 11852,
       "exportedPath": "lib/fonts/mathjax_script-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_typewriter-regular.woff": {
-      "modifiedTime": 1742931492474,
+      "modifiedTime": 1743022461166,
       "sourceSize": 17604,
       "exportedPath": "lib/fonts/mathjax_typewriter-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_vector-regular.woff": {
-      "modifiedTime": 1742931492474,
+      "modifiedTime": 1743022461166,
       "sourceSize": 1136,
       "exportedPath": "lib/fonts/mathjax_vector-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_vector-bold.woff": {
-      "modifiedTime": 1742931492474,
+      "modifiedTime": 1743022461166,
       "sourceSize": 1116,
       "exportedPath": "lib/fonts/mathjax_vector-bold.woff",
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1742931492474,
-      "sourceSize": 180339,
+      "modifiedTime": 1743022461166,
+      "sourceSize": 180660,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1742931492474,
+      "modifiedTime": 1743022461166,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/graph-view.js": {
-      "modifiedTime": 1742931492474,
+      "modifiedTime": 1743022461166,
       "sourceSize": 15519,
       "exportedPath": "lib/scripts/graph-view.js",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1742931492474,
+      "modifiedTime": 1743022461166,
       "sourceSize": 14021,
       "exportedPath": "lib/scripts/graph-wasm.js",
       "dependencies": []
     },
     "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1742931492474,
+      "modifiedTime": 1743022461166,
       "sourceSize": 5179,
       "exportedPath": "lib/scripts/graph-render-worker.js",
       "dependencies": []
     },
     "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1742931492474,
+      "modifiedTime": 1743022461166,
       "sourceSize": 29832,
       "exportedPath": "lib/scripts/tinycolor.js",
       "dependencies": []
     },
     "lib/scripts/pixi.js": {
-      "modifiedTime": 1742931492474,
+      "modifiedTime": 1743022461166,
       "sourceSize": 449509,
       "exportedPath": "lib/scripts/pixi.js",
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1742931492474,
+      "modifiedTime": 1743022461166,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1742931492474,
+      "modifiedTime": 1743022461166,
       "sourceSize": 2048,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/scripts/graph-data.js": {
-      "modifiedTime": 1742931492474,
-      "sourceSize": 14321,
+      "modifiedTime": 1743022461166,
+      "sourceSize": 14250,
       "exportedPath": "lib/scripts/graph-data.js",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1742931492474,
+      "modifiedTime": 1743022461166,
       "sourceSize": 137567,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/other-plugins.css": {
-      "modifiedTime": 1742931492474,
+      "modifiedTime": 1743022461166,
       "sourceSize": 543,
       "exportedPath": "lib/styles/other-plugins.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1742931492474,
+      "modifiedTime": 1743022461166,
       "sourceSize": 264,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1742931492474,
+      "modifiedTime": 1743022461166,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
+      "dependencies": []
+    },
+    "Building and Version Control/3. Building System and Makefile.md": {
+      "modifiedTime": 1743022461166,
+      "sourceSize": 6737,
+      "exportedPath": "building-and-version-control/3.-building-system-and-makefile.html",
+      "dependencies": [
+        "lib/media/pasted-image-20250322033111.png"
+      ]
+    },
+    "Building and Version Control/4. CMake.md": {
+      "modifiedTime": 1743022461166,
+      "sourceSize": 24,
+      "exportedPath": "building-and-version-control/4.-cmake.html",
+      "dependencies": []
+    },
+    "Congzhi's OS Series/pics/valhalla.jpg": {
+      "modifiedTime": 1743022461166,
+      "sourceSize": 620553,
+      "exportedPath": "congzhi's-os-series/pics/valhalla.jpg",
+      "dependencies": []
+    },
+    "Some Notes/Redis at a Peek.md": {
+      "modifiedTime": 1743022461166,
+      "sourceSize": 117,
+      "exportedPath": "some-notes/redis-at-a-peek.html",
+      "dependencies": []
+    },
+    "congzhi's-os-series/pics/valhalla.jpg": {
+      "modifiedTime": 1743022461166,
+      "sourceSize": 620553,
+      "exportedPath": "congzhi's-os-series/pics/valhalla.jpg",
       "dependencies": []
     }
   }
