@@ -1,6 +1,6 @@
 {
   "vaultName": "Congzhi's Notes Vault",
-  "lastExport": 1747069980619,
+  "lastExport": 1755687864124,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-light show-inline-title show-ribbon",
   "useCustomHeadContent": false,
@@ -9,10 +9,14 @@
     "Building and Version Control/1. Compilation.md",
     "Building and Version Control/2. Linking.md",
     "Building and Version Control/3. Building System and Makefile.md",
-    "Building and Version Control/4. CMake.md",
-    "Building and Version Control/5. Release Build and Debug Build.md",
+    "Building and Version Control/4. Release Build and Debug Build.md",
+    "Building and Version Control/5. CMake.md",
     "Building and Version Control/Building and Version Control.md",
-    "Building and Version Control/Git and Github (Part I).md",
+    "Building and Version Control/Git and Github - Part I.md",
+    "Building and Version Control/Git and Github - Part II.md",
+    "Computer Architecture/Computer Architecture.md",
+    "Computer Architecture/Modern CPU Evolution (ENG).md",
+    "Computer Architecture/NUMA Systems.md",
     "Computer Networking A Top-Down Approach/pics/屏幕截图 2024-07-21 161530.png",
     "Computer Networking A Top-Down Approach/pics/Pasted image 20240511220056.png",
     "Computer Networking A Top-Down Approach/pics/Pasted image 20240512121540.png",
@@ -130,16 +134,17 @@
     "Congzhi's C Plus Plus Series/pics/Pasted image 20250225102217.png",
     "Congzhi's C Plus Plus Series/pics/range-begin-end.svg",
     "Congzhi's C Plus Plus Series/pics/range-rbegin-rend.svg",
-    "Congzhi's C Plus Plus Series/pics/Stack_under_the_hood.png",
     "Congzhi's C Plus Plus Series/pics/std_ascii.png",
     "Congzhi's C Plus Plus Series/pics/string_literal.png",
     "Congzhi's C Plus Plus Series/pics/vtable.png",
     "Congzhi's C Plus Plus Series/Alignment in C++ (ENG).md",
     "Congzhi's C Plus Plus Series/ASLR for Safety (ENG).md",
     "Congzhi's C Plus Plus Series/Assert in C++ (NC).md",
+    "Congzhi's C Plus Plus Series/Branchless Programming Intro in C++ (ENG).md",
     "Congzhi's C Plus Plus Series/C-Style Casts in C++.md",
     "Congzhi's C Plus Plus Series/Call Stack in C++ (ENG).md",
     "Congzhi's C Plus Plus Series/Character Literal & String Literal in C++.md",
+    "Congzhi's C Plus Plus Series/Command Design Pattern (NC).md",
     "Congzhi's C Plus Plus Series/Concurrency in C++.md",
     "Congzhi's C Plus Plus Series/Congzhi's C Plus Plus Series.md",
     "Congzhi's C Plus Plus Series/Const in C++.md",
@@ -149,32 +154,40 @@
     "Congzhi's C Plus Plus Series/Copying and Copy Constructors in C++.md",
     "Congzhi's C Plus Plus Series/Delegating Constructors in C++ (ENG, NC).md",
     "Congzhi's C Plus Plus Series/Dynamic Casting in C++.md",
+    "Congzhi's C Plus Plus Series/Effective C++ - Prefer the Compiler to the Processor.md",
+    "Congzhi's C Plus Plus Series/Enums in C++ (NC).md",
     "Congzhi's C Plus Plus Series/Exception Control in C++ (NC).md",
     "Congzhi's C Plus Plus Series/Explicit Specifier in C++ (ENG).md",
     "Congzhi's C Plus Plus Series/Extern Keyword in C++.md",
-    "Congzhi's C Plus Plus Series/Forwarding in C++.md",
     "Congzhi's C Plus Plus Series/Friend Keyword in C++ (ENG).md",
     "Congzhi's C Plus Plus Series/Function Pointers in C++ (Examples).md",
     "Congzhi's C Plus Plus Series/Functions in Standard Library (Examples).md",
-    "Congzhi's C Plus Plus Series/Generics Programming in C++.md",
+    "Congzhi's C Plus Plus Series/Generics Programming in C++ (NC).md",
+    "Congzhi's C Plus Plus Series/Google C++ Style Guide.md",
+    "Congzhi's C Plus Plus Series/GPU Programming in C++ (NC).md",
     "Congzhi's C Plus Plus Series/Inheritance in C++.md",
+    "Congzhi's C Plus Plus Series/Inheritance of Interface and Inheritance of Implementation in C++ (NC).md",
     "Congzhi's C Plus Plus Series/Inline in C++ (ENG).md",
     "Congzhi's C Plus Plus Series/Integer Literal & Float Literal in C++.md",
+    "Congzhi's C Plus Plus Series/Know Your Hardware - Modern CPU Architecture.md",
     "Congzhi's C Plus Plus Series/Lambdas in C++.md",
+    "Congzhi's C Plus Plus Series/Lock-Free Programming in C++ (ENG, NC).md",
     "Congzhi's C Plus Plus Series/Malloc in glibc (ENG).md",
     "Congzhi's C Plus Plus Series/Member Initializer List in C++ (ENG).md",
     "Congzhi's C Plus Plus Series/Memory Management in C++ (Abandoned).md",
     "Congzhi's C Plus Plus Series/Move Semantics in C++.md",
     "Congzhi's C Plus Plus Series/Mutable and The M&M Rule in C++ (ENG).md",
     "Congzhi's C Plus Plus Series/Namespaces in C++ (ENG).md",
-    "Congzhi's C Plus Plus Series/Networking - CS model.md",
-    "Congzhi's C Plus Plus Series/Noexcept in C++ (ENG).md",
+    "Congzhi's C Plus Plus Series/Networking - CS model (Abandoned).md",
+    "Congzhi's C Plus Plus Series/noexcept in C++ (ENG).md",
     "Congzhi's C Plus Plus Series/Object Oriented Programming in C++.md",
+    "Congzhi's C Plus Plus Series/Observer Pattern.md",
     "Congzhi's C Plus Plus Series/Operator Overloading in C++ (ENG).md",
     "Congzhi's C Plus Plus Series/Parameter Pack in C++ (ENG, NC).md",
     "Congzhi's C Plus Plus Series/Part1：C++11 (Abandoned).md",
     "Congzhi's C Plus Plus Series/Part2：Class (Abandoned).md",
-    "Congzhi's C Plus Plus Series/Post-Increment and Pre-Increment in C++.md",
+    "Congzhi's C Plus Plus Series/Perfect Forwarding in C++.md",
+    "Congzhi's C Plus Plus Series/Post-Increment and Pre-Increment in C++ (NC).md",
     "Congzhi's C Plus Plus Series/Preprocessor in C++ (Part I, NC).md",
     "Congzhi's C Plus Plus Series/Preprocessor in C++ (Part II, NC).md",
     "Congzhi's C Plus Plus Series/Preprocessor in C++ (Part III, NC).md",
@@ -183,10 +196,13 @@
     "Congzhi's C Plus Plus Series/Preprocessor in C++ (Part VI, NC).md",
     "Congzhi's C Plus Plus Series/Program Arguments Handling in C++.md",
     "Congzhi's C Plus Plus Series/RAII and Scope in C++.md",
+    "Congzhi's C Plus Plus Series/RVO in C++ (ENG).md",
+    "Congzhi's C Plus Plus Series/Singleton Pattern (NC).md",
     "Congzhi's C Plus Plus Series/Smart Pointers in C++.md",
+    "Congzhi's C Plus Plus Series/SOLID Design Principles (NC).md",
     "Congzhi's C Plus Plus Series/Standard Array Basics (ENG).md",
     "Congzhi's C Plus Plus Series/Standard Variant in C++.md",
-    "Congzhi's C Plus Plus Series/Static Casting & Reinterpret Casting in C++.md",
+    "Congzhi's C Plus Plus Series/Static Casting & Reinterpret Casting in C++ (NC).md",
     "Congzhi's C Plus Plus Series/Static Dispatch in C++ (ENG).md",
     "Congzhi's C Plus Plus Series/Static Keyword in C++.md",
     "Congzhi's C Plus Plus Series/STL Container - Standard Array in C++ (NC).md",
@@ -198,10 +214,11 @@
     "Congzhi's C Plus Plus Series/STL Iterator - Range Access (Part II).md",
     "Congzhi's C Plus Plus Series/String Library in C++ (NC).md",
     "Congzhi's C Plus Plus Series/The pIMPL Idiom in C++ (ENG).md",
-    "Congzhi's C Plus Plus Series/The Rule of Five in C++.md",
+    "Congzhi's C Plus Plus Series/The Rule of Five Idiom in C++.md",
     "Congzhi's C Plus Plus Series/This Keyword in C++ (ENG).md",
-    "Congzhi's C Plus Plus Series/Type Deduce - Auto in C++.md",
-    "Congzhi's C Plus Plus Series/Type Deduce - Decltype in C++.md",
+    "Congzhi's C Plus Plus Series/Type Deduction - Auto in C++.md",
+    "Congzhi's C Plus Plus Series/Type Deduction - Decltype in C++.md",
+    "Congzhi's C Plus Plus Series/Type Deduction - Template Type Deduction.md",
     "Congzhi's C Plus Plus Series/Typename Keyword in C++ (ENG).md",
     "Congzhi's C Plus Plus Series/Unions in C++.md",
     "Congzhi's C Plus Plus Series/Using Keyword in C++ (ENG).md",
@@ -212,7 +229,6 @@
     "Congzhi's OS Series/pics/batch_control_cards.png",
     "Congzhi's OS Series/pics/booting process.png",
     "Congzhi's OS Series/pics/computer_hardware.png",
-    "Congzhi's OS Series/pics/hhd.jpg",
     "Congzhi's OS Series/pics/hyper.webp",
     "Congzhi's OS Series/pics/IBM_701_console.jpg",
     "Congzhi's OS Series/pics/IBM_704.jpg",
@@ -401,7 +417,6 @@
     "Congzhi's OS Series/9. CPU Scheduling.md",
     "Congzhi's OS Series/10. Synchronization and Mutex.md",
     "Congzhi's OS Series/11. Deadlock.md",
-    "Congzhi's OS Series/11.x A Thread Pool Library in C++.md",
     "Congzhi's OS Series/12. Memory Management.md",
     "Congzhi's OS Series/13. IO Subsystem.md",
     "Congzhi's OS Series/14. Mass Storage.md",
@@ -409,6 +424,8 @@
     "Congzhi's OS Series/16. Asynchronous IO.md",
     "Congzhi's OS Series/17. Virtualization and Container.md",
     "Congzhi's OS Series/Congzhi's OS Series.md",
+    "Congzhi's OS Series/Lecture 1 - Introduction.md",
+    "Congzhi's OS Series/Lecture 2 - RPC and Threads.md",
     "Congzhi's OS Series/T. Valgrind and Helgrind.md",
     "CS50 SQL/CS50 SQL.md",
     "CS50 SQL/Lecture 0 - Querying.md",
@@ -423,8 +440,8 @@
     "Data Structure and Algorithm/Data Structure and Algorithm.md",
     "Data Structure and Algorithm/DS. AVL Tree (An Intro, NC).md",
     "Data Structure and Algorithm/DS. B-Tree.md",
-    "Data Structure and Algorithm/DS. Binary Tree.md",
-    "Data Structure and Algorithm/DS. Bloom Filter.md",
+    "Data Structure and Algorithm/DS. Binary Tree (NC).md",
+    "Data Structure and Algorithm/DS. Bloom Filter (NC).md",
     "Data Structure and Algorithm/DS. Hash Table.md",
     "Data Structure and Algorithm/DS. Heap (Priority Queue).md",
     "Data Structure and Algorithm/DS. Red-Black Tree.md",
@@ -444,6 +461,9 @@
     "Data Structure and Algorithm/SA. Merge Sort (NC).md",
     "Data Structure and Algorithm/SA. Quick Sort (NC).md",
     "Data Structure and Algorithm/SA. Selection Sort (NC).md",
+    "Let's GO/pics/deprecated go scheduler.png",
+    "Let's GO/A Tour of Go.md",
+    "Let's GO/GPM Model of Go.md",
     "Let's GO/Let's GO.md",
     "Networks/pics/Picture-demonstrating-the-difference-between-a-packet-switched-network-and-a-circuit-switched-network.webp",
     "Networks/pics/TCP_Receiver_Window.png",
@@ -459,8 +479,15 @@
     "Networks/Networking Delay.md",
     "Networks/Networks.md",
     "Networks/Socket API and Transport Layer Protocol.md",
+    "NUMA-Aware Thread Pool/Normal Thread Pool.md",
+    "NUMA-Aware Thread Pool/NUMA Wrapper.md",
+    "NUMA-Aware Thread Pool/NUMA-Aware Thread Pool.md",
+    "NUMA-Aware Thread Pool/pthread Wrapper.md",
     "Some Notes/pics/bit-endian-1.gif",
+    "Some Notes/pics/convolution_process.png",
+    "Some Notes/pics/CUDA.png",
     "Some Notes/pics/cuda_version.png",
+    "Some Notes/pics/GPU_arch.png",
     "Some Notes/pics/Pasted image 20240812172331.png",
     "Some Notes/pics/Pasted image 20240812173423.png",
     "Some Notes/pics/Pasted image 20240907154509.png",
@@ -483,15 +510,17 @@
     "Some Notes/Redis at a Peek.md",
     "Some Notes/Some Notes.md",
     "Some Notes/Three Steps to Have Your Own Obsidian Site.md",
+    "Some Notes/What is CUDA.md",
+    "Some Notes/What is Tensors.md",
     "Some Notes/YOLO Env Config.md",
-    "Swift Learning of Swift/Lecture 1 - Getting Started with SwiftUI.md",
+    "Swift Learning of Swift/Lecture I & II - Getting Started with SwiftUI.md",
+    "Swift Learning of Swift/Lecture III & IV - MVVM.md",
+    "Swift Learning of Swift/Protocol in Swift.md",
+    "Swift Learning of Swift/Struct vs. Class in Swift.md",
+    "Swift Learning of Swift/Swift API Design Guidelines.md",
     "Swift Learning of Swift/Swift Learning of Swift.md",
-    "WebDev Made Easy!/WebDev Made Easy!.md",
+    "Swift Learning of Swift/The Basics.md",
     "Home Sweet Home.md",
-    "Pasted image 20250322033111.png",
-    "lib/media/pasted-image-20250322033111.png",
-    "lib/media/udp_pseudo_header.png",
-    "lib/media/bit-endian-1.gif",
     "lib/scripts/graph-wasm.wasm",
     "lib/fonts/94f2f163d4b698242fef.otf",
     "lib/fonts/72505e6a122c6acd5471.woff2",
@@ -542,7 +571,314 @@
     "lib/styles/obsidian.css",
     "lib/styles/other-plugins.css",
     "lib/styles/global-variable-styles.css",
-    "lib/styles/main-styles.css"
+    "lib/styles/main-styles.css",
+    "lib/media/pasted-image-20250322033111.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240511220056.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240512121540.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240512142716.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240513201503.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240513205240.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240514001832.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240514003252.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240514003303.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240512143000.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240512155342.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240512161340.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240512184019.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240512204230.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240514163345.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240518004728.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240518145801.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240519002020.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240519004302.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240519010954.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240519131546.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240519150643.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240521003828.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240527021928.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240527032107.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240527174749.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240528195845.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240528210914.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240603225246.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240604010021.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240605003249.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240605012506.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240605013943.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240605160542.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240605164341.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240605212341.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240608041543.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240609005629.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240612014451.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240618164507.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240618185617.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240619182044.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240620183658.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240620192758.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240620202147.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240622153238.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240622164243.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240704180831.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240705114457.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240705115300.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240705151453.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240707015702.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240707150002.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240709001051.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240709003932.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240709230729.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240710003357.png",
+    "lib/media/udp_pseudo_header.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240712160221.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240715175100.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240715220352.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240715234126.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240715234140.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240715235048.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240715235100.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240718000203.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240718003101.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240718003522.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240718014251.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240718014358.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240720004907.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240720033306.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240720033322.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240720042336.png",
+    "computer-networking-a-top-down-approach/pics/屏幕截图-2024-07-21-161530.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240721225159.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240722010246.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240722021917.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240725192031.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240726044658.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240727043719.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240727055138.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240811181317.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240812102024.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240812120639.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240812120931.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240812144354.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240608075456.png",
+    "computer-networking-a-top-down-approach/pics/pasted-image-20240608080032.png",
+    "congzhi's-c-plus-plus-series/pics/align_ex.png",
+    "congzhi's-c-plus-plus-series/pics/align_ex2.png",
+    "congzhi's-c-plus-plus-series/pics/call_stack.png",
+    "congzhi's-c-plus-plus-series/pics/stack_under_the_hood.png",
+    "congzhi's-c-plus-plus-series/pics/std_ascii.png",
+    "congzhi's-c-plus-plus-series/pics/string_literal.png",
+    "congzhi's-c-plus-plus-series/pics/pasted-image-20250225102217.png",
+    "congzhi's-c-plus-plus-series/pics/linked_block.png",
+    "congzhi's-c-plus-plus-series/pics/malloc_map.png",
+    "congzhi's-c-plus-plus-series/pics/pasted-image-20250111194242.png",
+    "congzhi's-c-plus-plus-series/pics/pasted-image-20250111204014.png",
+    "congzhi's-c-plus-plus-series/pics/pasted-image-20250111204033.png",
+    "congzhi's-c-plus-plus-series/pics/pasted-image-20241023154500.png",
+    "congzhi's-c-plus-plus-series/pics/pasted-image-20241023153930.png",
+    "congzhi's-c-plus-plus-series/pics/pasted-image-20241023154839.png",
+    "congzhi's-c-plus-plus-series/pics/pasted-image-20241023155605.png",
+    "congzhi's-c-plus-plus-series/pics/pasted-image-20241024004507.png",
+    "congzhi's-c-plus-plus-series/pics/pasted-image-20241024005717.png",
+    "congzhi's-c-plus-plus-series/pics/pasted-image-20241024015023.png",
+    "congzhi's-c-plus-plus-series/pics/pasted-image-20241024145414.png",
+    "congzhi's-c-plus-plus-series/pics/pasted-image-20241024145703.png",
+    "congzhi's-c-plus-plus-series/pics/pasted-image-20241214224127.png",
+    "congzhi's-c-plus-plus-series/pics/pasted-image-20241214224219.png",
+    "congzhi's-c-plus-plus-series/pics/range-begin-end.svg",
+    "congzhi's-c-plus-plus-series/pics/range-rbegin-rend.svg",
+    "congzhi's-c-plus-plus-series/pics/member_union.png",
+    "congzhi's-c-plus-plus-series/pics/vtable.png",
+    "congzhi's-c-plus-plus-series/pics/pasted-image-20241009225008.png",
+    "congzhi's-os-series/pics/computer_hardware.png",
+    "congzhi's-os-series/pics/pasted-image-20240405005008.png",
+    "congzhi's-os-series/pics/os_user_view.jpg",
+    "congzhi's-os-series/pics/storage_device_hierarchy.png",
+    "congzhi's-os-series/pics/memory_layout_multiprogramming.png",
+    "congzhi's-os-series/pics/speed_of_storage_hierarchy.png",
+    "congzhi's-os-series/pics/migration_of_os_concepts_and_features.png",
+    "congzhi's-os-series/pics/mainframe_computer.jpg",
+    "congzhi's-os-series/pics/ibm_701_console.jpg",
+    "congzhi's-os-series/pics/ibm_704.jpg",
+    "congzhi's-os-series/pics/resident_monitor.png",
+    "congzhi's-os-series/pics/batch_control_cards.png",
+    "congzhi's-os-series/pics/offline_io.png",
+    "congzhi's-os-series/pics/pasted-image-20240912161341.png",
+    "congzhi's-os-series/pics/pasted-image-20240912162841.png",
+    "congzhi's-os-series/pics/pasted-image-20240501224716.png",
+    "congzhi's-os-series/pics/pasted-image-20240501230701.png",
+    "congzhi's-os-series/pics/pasted-image-20240925014738.png",
+    "congzhi's-os-series/pics/pasted-image-20240925014813.png",
+    "congzhi's-os-series/pics/pasted-image-20240924165346.png",
+    "congzhi's-os-series/pics/pasted-image-20240501235413.png",
+    "congzhi's-os-series/pics/pasted-image-20240925015122.png",
+    "congzhi's-os-series/pics/pasted-image-20250127044801.png",
+    "congzhi's-os-series/pics/pasted-image-20240913230021.png",
+    "congzhi's-os-series/pics/pasted-image-20240423213215.png",
+    "congzhi's-os-series/pics/memory-hierarchy.png",
+    "congzhi's-os-series/pics/pasted-image-20241214172755.jpg",
+    "congzhi's-os-series/pics/booting-process.png",
+    "congzhi's-os-series/pics/pasted-image-20240406183909.png",
+    "congzhi's-os-series/pics/pasted-image-20240827160217.png",
+    "congzhi's-os-series/pics/pasted-image-20240924013452.png",
+    "congzhi's-os-series/pics/0212511f66bbc3e3312972413e91a87c.webp",
+    "congzhi's-os-series/pics/pasted-image-20240724122510.jpg",
+    "congzhi's-os-series/pics/pasted-image-20240820022709.png",
+    "congzhi's-os-series/pics/pasted-image-20241110161041.png",
+    "congzhi's-os-series/pics/pasted-image-20240928001613.png",
+    "congzhi's-os-series/pics/pasted-image-20240509165620.png",
+    "congzhi's-os-series/pics/pasted-image-20250113004224.jpg",
+    "congzhi's-os-series/pics/pasted-image-20241130180123.jpg",
+    "congzhi's-os-series/pics/pasted-image-20241130182530.jpg",
+    "congzhi's-os-series/pics/pasted-image-20241018163535.png",
+    "congzhi's-os-series/pics/pasted-image-20241130023834.jpg",
+    "congzhi's-os-series/pics/pasted-image-20241130023659.jpg",
+    "congzhi's-os-series/pics/pasted-image-20241018191021.jpg",
+    "congzhi's-os-series/pics/pasted-image-20250128013013.png",
+    "congzhi's-os-series/pics/pasted-image-20241018205838.png",
+    "congzhi's-os-series/pics/pasted-image-20241018203144.png",
+    "congzhi's-os-series/pics/pasted-image-20241018204321.png",
+    "congzhi's-os-series/pics/pasted-image-20241018205735.png",
+    "congzhi's-os-series/pics/pasted-image-20241018202903.png",
+    "congzhi's-os-series/pics/pasted-image-20241130023253.jpg",
+    "congzhi's-os-series/pics/mmap.png",
+    "congzhi's-os-series/pics/pasted-image-20250128190859.png",
+    "congzhi's-os-series/pics/pasted-image-20241203220443.jpg",
+    "congzhi's-os-series/pics/threads_parallelism_concurrency.jpg",
+    "congzhi's-os-series/pics/pasted-image-20241204003952.jpg",
+    "congzhi's-os-series/pics/pasted-image-20241203215622.jpg",
+    "congzhi's-os-series/pics/pasted-image-20241204011034.jpg",
+    "congzhi's-os-series/pics/pasted-image-20241204011053.jpg",
+    "congzhi's-os-series/pics/pasted-image-20241204011045.jpg",
+    "congzhi's-os-series/pics/pasted-image-20241204011100.jpg",
+    "congzhi's-os-series/pics/pasted-image-20241204011158.jpg",
+    "congzhi's-os-series/pics/pasted-image-20250113014249.jpg",
+    "congzhi's-os-series/pics/pasted-image-20240905160146.png",
+    "congzhi's-os-series/pics/pasted-image-20250112233950.png",
+    "congzhi's-os-series/pics/pasted-image-20240528012310.png",
+    "congzhi's-os-series/pics/pasted-image-20250112184625.png",
+    "congzhi's-os-series/pics/pasted-image-20241003233336.png",
+    "congzhi's-os-series/pics/pasted-image-20241004014342.png",
+    "congzhi's-os-series/pics/pasted-image-20241004021149.png",
+    "congzhi's-os-series/pics/pasted-image-20250112055229.png",
+    "congzhi's-os-series/pics/hyper.webp",
+    "congzhi's-os-series/pics/pasted-image-20250112042240.jpg",
+    "congzhi's-os-series/pics/pasted-image-20250114004941.jpg",
+    "congzhi's-os-series/pics/pasted-image-20250114013155.png",
+    "congzhi's-os-series/pics/this_is_fine.jpg",
+    "congzhi's-os-series/pics/pasted-image-20240701005315.png",
+    "congzhi's-os-series/pics/moba_game_begin.jpg",
+    "congzhi's-os-series/pics/pasted-image-20241104161252.png",
+    "congzhi's-os-series/pics/pasted-image-20240716220750.png",
+    "congzhi's-os-series/pics/pasted-image-20240716230346.png",
+    "congzhi's-os-series/pics/pasted-image-20240717125542.jpg",
+    "congzhi's-os-series/pics/pasted-image-20240717142805.jpg",
+    "congzhi's-os-series/pics/pasted-image-20240723100243.jpg",
+    "congzhi's-os-series/pics/pasted-image-20240723165143.jpg",
+    "congzhi's-os-series/pics/pasted-image-20240723165716.jpg",
+    "congzhi's-os-series/pics/pasted-image-20240723170556.jpg",
+    "congzhi's-os-series/pics/pasted-image-20240723172000.jpg",
+    "congzhi's-os-series/pics/pasted-image-20241102225956.png",
+    "congzhi's-os-series/pics/pasted-image-20241102231911.png",
+    "congzhi's-os-series/pics/pasted-image-20241103015057.jpg",
+    "congzhi's-os-series/pics/pasted-image-20240723182429.png",
+    "congzhi's-os-series/pics/pasted-image-20240728054403.png",
+    "congzhi's-os-series/pics/pasted-image-20240729010510.png",
+    "congzhi's-os-series/pics/pasted-image-20240729033616.png",
+    "congzhi's-os-series/pics/pasted-image-20240729035023.png",
+    "congzhi's-os-series/pics/pasted-image-20240729180635.png",
+    "congzhi's-os-series/pics/pasted-image-20240729183709.png",
+    "congzhi's-os-series/pics/pasted-image-20240729201529.png",
+    "congzhi's-os-series/pics/pasted-image-20240729201908.png",
+    "congzhi's-os-series/pics/pasted-image-20240730015834.png",
+    "congzhi's-os-series/pics/pasted-image-20240730033638.png",
+    "congzhi's-os-series/pics/pasted-image-20240730092536.png",
+    "congzhi's-os-series/pics/pasted-image-20240730215541.jpg",
+    "congzhi's-os-series/pics/pasted-image-20240730220832.jpg",
+    "congzhi's-os-series/pics/pasted-image-20240730223332.jpg",
+    "congzhi's-os-series/pics/pasted-image-20240730220817.jpg",
+    "congzhi's-os-series/pics/pasted-image-20240730221149.jpg",
+    "congzhi's-os-series/pics/pasted-image-20240801010828.png",
+    "congzhi's-os-series/pics/pasted-image-20240730220934.jpg",
+    "congzhi's-os-series/pics/pasted-image-20240801075550.png",
+    "congzhi's-os-series/pics/pasted-image-20240801075704.png",
+    "congzhi's-os-series/pics/pasted-image-20240805013618.png",
+    "congzhi's-os-series/pics/pasted-image-20240801081814.jpg",
+    "congzhi's-os-series/pics/pasted-image-20240805022104.png",
+    "congzhi's-os-series/pics/pasted-image-20240924011424.jpg",
+    "congzhi's-os-series/pics/pasted-image-20240814201027.png",
+    "congzhi's-os-series/pics/pasted-image-20240814203923.png",
+    "congzhi's-os-series/pics/pasted-image-20241123015750.jpg",
+    "congzhi's-os-series/pics/pasted-image-20240923222601.png",
+    "congzhi's-os-series/pics/pasted-image-20240923230804.png",
+    "congzhi's-os-series/pics/pasted-image-20240923230816.png",
+    "congzhi's-os-series/pics/pasted-image-20241112175054.png",
+    "congzhi's-os-series/pics/pasted-image-20240808004636.png",
+    "congzhi's-os-series/pics/pasted-image-20240924163417.png",
+    "congzhi's-os-series/pics/pasted-image-20240925010529.png",
+    "congzhi's-os-series/pics/pasted-image-20240925004924.png",
+    "congzhi's-os-series/pics/pasted-image-20240924020957.png",
+    "congzhi's-os-series/pics/pasted-image-20240924021026.png",
+    "congzhi's-os-series/pics/pasted-image-20240924023629.png",
+    "congzhi's-os-series/pics/pasted-image-20241121010744.jpg",
+    "congzhi's-os-series/pics/pasted-image-20241124023333.jpg",
+    "congzhi's-os-series/pics/pasted-image-20241121021731.jpg",
+    "congzhi's-os-series/pics/pasted-image-20241123043749.png",
+    "congzhi's-os-series/pics/pasted-image-20241123190040.jpg",
+    "congzhi's-os-series/pics/pasted-image-20241123042009.jpg",
+    "congzhi's-os-series/pics/pasted-image-20241121010724.jpg",
+    "congzhi's-os-series/pics/pasted-image-20241121010947.jpg",
+    "congzhi's-os-series/pics/pasted-image-20241121010449.jpg",
+    "congzhi's-os-series/pics/pasted-image-20241121010924.jpg",
+    "congzhi's-os-series/pics/pasted-image-20241125035405.jpg",
+    "congzhi's-os-series/pics/pasted-image-20241121021143.jpg",
+    "congzhi's-os-series/pics/pasted-image-20241124024405.jpg",
+    "congzhi's-os-series/pics/hhd.jpg",
+    "congzhi's-os-series/pics/ssd.jpg",
+    "congzhi's-os-series/pics/pasted-image-20241126212945.jpg",
+    "congzhi's-os-series/pics/pasted-image-20240824180225.png",
+    "congzhi's-os-series/pics/pasted-image-20240824184231.png",
+    "congzhi's-os-series/pics/pasted-image-20241127205724.jpg",
+    "congzhi's-os-series/pics/pasted-image-20241128230955.jpg",
+    "congzhi's-os-series/pics/pasted-image-20241018011136.png",
+    "congzhi's-os-series/pics/pasted-image-20241202010255.jpg",
+    "congzhi's-os-series/pics/pasted-image-20241202010304.jpg",
+    "congzhi's-os-series/pics/pasted-image-20241202010310.jpg",
+    "congzhi's-os-series/pics/pasted-image-20241202010318.jpg",
+    "congzhi's-os-series/pics/pasted-image-20241202231218.jpg",
+    "congzhi's-os-series/pics/pasted-image-20240831003914.jpg",
+    "congzhi's-os-series/pics/pasted-image-20241202002753.jpg",
+    "congzhi's-os-series/pics/pasted-image-20241202002801.jpg",
+    "congzhi's-os-series/pics/pasted-image-20240825132025.png",
+    "congzhi's-os-series/pics/pasted-image-20240825132044.png",
+    "congzhi's-os-series/pics/pasted-image-20240825132254.png",
+    "congzhi's-os-series/pics/pasted-image-20241128030948.jpg",
+    "congzhi's-os-series/pics/pasted-image-20240826135306.png",
+    "congzhi's-os-series/pics/pasted-image-20240826135310.png",
+    "congzhi's-os-series/pics/pasted-image-20240826173012.png",
+    "congzhi's-os-series/pics/pasted-image-20240825132134.png",
+    "congzhi's-os-series/pics/pasted-image-20241205203358.png",
+    "congzhi's-os-series/pics/pasted-image-20240825181709.png",
+    "congzhi's-os-series/pics/pasted-image-20241207162851.png",
+    "congzhi's-os-series/pics/pasted-image-20241207225739.png",
+    "congzhi's-os-series/pics/pasted-image-20250121002345.jpg",
+    "congzhi's-os-series/pics/pasted-image-20240925014938.png",
+    "congzhi's-os-series/pics/pasted-image-20240925014933.png",
+    "congzhi's-os-series/pics/pasted-image-20240925021538.png",
+    "congzhi's-os-series/pics/pasted-image-20250121030340.png",
+    "congzhi's-os-series/pics/valhalla.jpg",
+    "lib/media/bit-endian-1.gif",
+    "networks/pics/picture-demonstrating-the-difference-between-a-packet-switched-network-and-a-circuit-switched-network.webp",
+    "networks/pics/tcp_sender_window.png",
+    "networks/pics/tcp_receiver_window.png",
+    "some-notes/pics/pasted-image-20240812173423.png",
+    "some-notes/pics/pasted-image-20240812172331.png",
+    "some-notes/pics/pasted-image-20240916212548.png",
+    "some-notes/pics/pasted-image-20240926140732.png",
+    "some-notes/pics/pasted-image-20240928003748.png",
+    "some-notes/pics/pasted-image-20240930154026.png",
+    "some-notes/pics/pasted-image-20240916181307.png",
+    "some-notes/pics/cuda_version.png",
+    "some-notes/pics/pasted-image-20250318224527.png"
   ],
   "mainDependencies": [
     "lib/scripts/graph-wasm.wasm",
@@ -611,35 +947,15 @@
       "dependencies": []
     },
     "Building and Version Control/3. Building System and Makefile.md": {
-      "modifiedTime": 1747069980619,
-      "sourceSize": 6738,
+      "modifiedTime": 1755687864124,
+      "sourceSize": 6686,
       "exportedPath": "building-and-version-control/3.-building-system-and-makefile.html",
-      "dependencies": [
-        "lib/media/pasted-image-20250322033111.png"
-      ]
-    },
-    "Building and Version Control/4. CMake.md": {
-      "modifiedTime": 1747069980619,
-      "sourceSize": 24,
-      "exportedPath": "building-and-version-control/4.-cmake.html",
-      "dependencies": []
-    },
-    "Building and Version Control/5. Release Build and Debug Build.md": {
-      "modifiedTime": 1747069980619,
-      "sourceSize": 180,
-      "exportedPath": "building-and-version-control/5.-release-build-and-debug-build.html",
       "dependencies": []
     },
     "Building and Version Control/Building and Version Control.md": {
-      "modifiedTime": 1747069980619,
-      "sourceSize": 926,
+      "modifiedTime": 1755687864124,
+      "sourceSize": 958,
       "exportedPath": "building-and-version-control/building-and-version-control.html",
-      "dependencies": []
-    },
-    "Building and Version Control/Git and Github (Part I).md": {
-      "modifiedTime": 1747069980619,
-      "sourceSize": 11894,
-      "exportedPath": "building-and-version-control/git-and-github-(part-i).html",
       "dependencies": []
     },
     "Computer Networking A Top-Down Approach/pics/屏幕截图 2024-07-21 161530.png": {
@@ -1279,7 +1595,7 @@
       ]
     },
     "Computer Networking A Top-Down Approach/Computer Networking A Top-Down Approach.md": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 632,
       "exportedPath": "computer-networking-a-top-down-approach/computer-networking-a-top-down-approach.html",
       "dependencies": []
@@ -1437,12 +1753,6 @@
       "exportedPath": "congzhi's-c-plus-plus-series/pics/range-rbegin-rend.svg",
       "dependencies": []
     },
-    "Congzhi's C Plus Plus Series/pics/Stack_under_the_hood.png": {
-      "modifiedTime": 1747069980619,
-      "sourceSize": 62026,
-      "exportedPath": "congzhi's-c-plus-plus-series/pics/stack_under_the_hood.png",
-      "dependencies": []
-    },
     "Congzhi's C Plus Plus Series/pics/std_ascii.png": {
       "modifiedTime": 1747069980619,
       "sourceSize": 225084,
@@ -1471,35 +1781,34 @@
       ]
     },
     "Congzhi's C Plus Plus Series/ASLR for Safety (ENG).md": {
-      "modifiedTime": 1747069980619,
-      "sourceSize": 2554,
+      "modifiedTime": 1755687864124,
+      "sourceSize": 2553,
       "exportedPath": "congzhi's-c-plus-plus-series/aslr-for-safety-(eng).html",
       "dependencies": []
     },
     "Congzhi's C Plus Plus Series/Assert in C++ (NC).md": {
-      "modifiedTime": 1747069980619,
-      "sourceSize": 60,
+      "modifiedTime": 1755687864124,
+      "sourceSize": 59,
       "exportedPath": "congzhi's-c-plus-plus-series/assert-in-c++-(nc).html",
       "dependencies": []
     },
     "Congzhi's C Plus Plus Series/C-Style Casts in C++.md": {
-      "modifiedTime": 1747069980619,
-      "sourceSize": 5128,
+      "modifiedTime": 1755687864124,
+      "sourceSize": 5114,
       "exportedPath": "congzhi's-c-plus-plus-series/c-style-casts-in-c++.html",
       "dependencies": []
     },
     "Congzhi's C Plus Plus Series/Call Stack in C++ (ENG).md": {
-      "modifiedTime": 1747069980619,
-      "sourceSize": 7190,
+      "modifiedTime": 1755687864124,
+      "sourceSize": 8324,
       "exportedPath": "congzhi's-c-plus-plus-series/call-stack-in-c++-(eng).html",
       "dependencies": [
-        "congzhi's-c-plus-plus-series/pics/call_stack.png",
-        "congzhi's-c-plus-plus-series/pics/stack_under_the_hood.png"
+        "congzhi's-c-plus-plus-series/pics/call_stack.png"
       ]
     },
     "Congzhi's C Plus Plus Series/Character Literal & String Literal in C++.md": {
-      "modifiedTime": 1747069980619,
-      "sourceSize": 5615,
+      "modifiedTime": 1755687864124,
+      "sourceSize": 5657,
       "exportedPath": "congzhi's-c-plus-plus-series/character-literal-&-string-literal-in-c++.html",
       "dependencies": [
         "congzhi's-c-plus-plus-series/pics/std_ascii.png",
@@ -1513,26 +1822,26 @@
       "dependencies": []
     },
     "Congzhi's C Plus Plus Series/Congzhi's C Plus Plus Series.md": {
-      "modifiedTime": 1747069980619,
-      "sourceSize": 4357,
+      "modifiedTime": 1755687864124,
+      "sourceSize": 5272,
       "exportedPath": "congzhi's-c-plus-plus-series/congzhi's-c-plus-plus-series.html",
       "dependencies": []
     },
     "Congzhi's C Plus Plus Series/Const in C++.md": {
-      "modifiedTime": 1747069980619,
-      "sourceSize": 5395,
+      "modifiedTime": 1755687864124,
+      "sourceSize": 6571,
       "exportedPath": "congzhi's-c-plus-plus-series/const-in-c++.html",
       "dependencies": []
     },
     "Congzhi's C Plus Plus Series/Consteval in C++ (ENG).md": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 3473,
       "exportedPath": "congzhi's-c-plus-plus-series/consteval-in-c++-(eng).html",
       "dependencies": []
     },
     "Congzhi's C Plus Plus Series/Constexpr in C++ (ENG).md": {
-      "modifiedTime": 1747069980619,
-      "sourceSize": 6566,
+      "modifiedTime": 1755687864124,
+      "sourceSize": 8670,
       "exportedPath": "congzhi's-c-plus-plus-series/constexpr-in-c++-(eng).html",
       "dependencies": []
     },
@@ -1549,14 +1858,14 @@
       "dependencies": []
     },
     "Congzhi's C Plus Plus Series/Delegating Constructors in C++ (ENG, NC).md": {
-      "modifiedTime": 1747069980619,
-      "sourceSize": 64,
+      "modifiedTime": 1755687864124,
+      "sourceSize": 63,
       "exportedPath": "congzhi's-c-plus-plus-series/delegating-constructors-in-c++-(eng,-nc).html",
       "dependencies": []
     },
     "Congzhi's C Plus Plus Series/Dynamic Casting in C++.md": {
-      "modifiedTime": 1747069980619,
-      "sourceSize": 293,
+      "modifiedTime": 1755687864124,
+      "sourceSize": 310,
       "exportedPath": "congzhi's-c-plus-plus-series/dynamic-casting-in-c++.html",
       "dependencies": []
     },
@@ -1578,15 +1887,9 @@
       "exportedPath": "congzhi's-c-plus-plus-series/extern-keyword-in-c++.html",
       "dependencies": []
     },
-    "Congzhi's C Plus Plus Series/Forwarding in C++.md": {
-      "modifiedTime": 1747069980619,
-      "sourceSize": 3929,
-      "exportedPath": "congzhi's-c-plus-plus-series/forwarding-in-c++.html",
-      "dependencies": []
-    },
     "Congzhi's C Plus Plus Series/Friend Keyword in C++ (ENG).md": {
-      "modifiedTime": 1747069980619,
-      "sourceSize": 2435,
+      "modifiedTime": 1755687864124,
+      "sourceSize": 2434,
       "exportedPath": "congzhi's-c-plus-plus-series/friend-keyword-in-c++-(eng).html",
       "dependencies": []
     },
@@ -1602,41 +1905,35 @@
       "exportedPath": "congzhi's-c-plus-plus-series/functions-in-standard-library-(examples).html",
       "dependencies": []
     },
-    "Congzhi's C Plus Plus Series/Generics Programming in C++.md": {
-      "modifiedTime": 1747069980619,
-      "sourceSize": 5531,
-      "exportedPath": "congzhi's-c-plus-plus-series/generics-programming-in-c++.html",
-      "dependencies": []
-    },
     "Congzhi's C Plus Plus Series/Inheritance in C++.md": {
-      "modifiedTime": 1747069980619,
-      "sourceSize": 7461,
+      "modifiedTime": 1755687864124,
+      "sourceSize": 7606,
       "exportedPath": "congzhi's-c-plus-plus-series/inheritance-in-c++.html",
       "dependencies": [
         "congzhi's-c-plus-plus-series/pics/pasted-image-20250225102217.png"
       ]
     },
     "Congzhi's C Plus Plus Series/Inline in C++ (ENG).md": {
-      "modifiedTime": 1747069980619,
-      "sourceSize": 5064,
+      "modifiedTime": 1755687864124,
+      "sourceSize": 5060,
       "exportedPath": "congzhi's-c-plus-plus-series/inline-in-c++-(eng).html",
       "dependencies": []
     },
     "Congzhi's C Plus Plus Series/Integer Literal & Float Literal in C++.md": {
-      "modifiedTime": 1747069980619,
-      "sourceSize": 2700,
+      "modifiedTime": 1755687864124,
+      "sourceSize": 2702,
       "exportedPath": "congzhi's-c-plus-plus-series/integer-literal-&-float-literal-in-c++.html",
       "dependencies": []
     },
     "Congzhi's C Plus Plus Series/Lambdas in C++.md": {
-      "modifiedTime": 1747069980619,
-      "sourceSize": 14928,
+      "modifiedTime": 1755687864124,
+      "sourceSize": 14934,
       "exportedPath": "congzhi's-c-plus-plus-series/lambdas-in-c++.html",
       "dependencies": []
     },
     "Congzhi's C Plus Plus Series/Malloc in glibc (ENG).md": {
-      "modifiedTime": 1747069980619,
-      "sourceSize": 5826,
+      "modifiedTime": 1755687864124,
+      "sourceSize": 5825,
       "exportedPath": "congzhi's-c-plus-plus-series/malloc-in-glibc-(eng).html",
       "dependencies": [
         "congzhi's-c-plus-plus-series/pics/linked_block.png",
@@ -1644,8 +1941,8 @@
       ]
     },
     "Congzhi's C Plus Plus Series/Member Initializer List in C++ (ENG).md": {
-      "modifiedTime": 1747069980619,
-      "sourceSize": 3562,
+      "modifiedTime": 1755687864124,
+      "sourceSize": 3388,
       "exportedPath": "congzhi's-c-plus-plus-series/member-initializer-list-in-c++-(eng).html",
       "dependencies": []
     },
@@ -1656,8 +1953,8 @@
       "dependencies": []
     },
     "Congzhi's C Plus Plus Series/Move Semantics in C++.md": {
-      "modifiedTime": 1747069980619,
-      "sourceSize": 12621,
+      "modifiedTime": 1755687864124,
+      "sourceSize": 12982,
       "exportedPath": "congzhi's-c-plus-plus-series/move-semantics-in-c++.html",
       "dependencies": [
         "congzhi's-c-plus-plus-series/pics/pasted-image-20250111194242.png",
@@ -1666,8 +1963,8 @@
       ]
     },
     "Congzhi's C Plus Plus Series/Mutable and The M&M Rule in C++ (ENG).md": {
-      "modifiedTime": 1747069980619,
-      "sourceSize": 2168,
+      "modifiedTime": 1755687864124,
+      "sourceSize": 2172,
       "exportedPath": "congzhi's-c-plus-plus-series/mutable-and-the-m&m-rule-in-c++-(eng).html",
       "dependencies": []
     },
@@ -1677,21 +1974,9 @@
       "exportedPath": "congzhi's-c-plus-plus-series/namespaces-in-c++-(eng).html",
       "dependencies": []
     },
-    "Congzhi's C Plus Plus Series/Networking - CS model.md": {
-      "modifiedTime": 1747069980619,
-      "sourceSize": 8972,
-      "exportedPath": "congzhi's-c-plus-plus-series/networking-cs-model.html",
-      "dependencies": []
-    },
-    "Congzhi's C Plus Plus Series/Noexcept in C++ (ENG).md": {
-      "modifiedTime": 1747069980619,
-      "sourceSize": 3364,
-      "exportedPath": "congzhi's-c-plus-plus-series/noexcept-in-c++-(eng).html",
-      "dependencies": []
-    },
     "Congzhi's C Plus Plus Series/Object Oriented Programming in C++.md": {
-      "modifiedTime": 1747069980619,
-      "sourceSize": 5644,
+      "modifiedTime": 1755687864124,
+      "sourceSize": 6009,
       "exportedPath": "congzhi's-c-plus-plus-series/object-oriented-programming-in-c++.html",
       "dependencies": []
     },
@@ -1719,15 +2004,9 @@
       "exportedPath": "congzhi's-c-plus-plus-series/part2：class-(abandoned).html",
       "dependencies": []
     },
-    "Congzhi's C Plus Plus Series/Post-Increment and Pre-Increment in C++.md": {
-      "modifiedTime": 1747069980619,
-      "sourceSize": 179,
-      "exportedPath": "congzhi's-c-plus-plus-series/post-increment-and-pre-increment-in-c++.html",
-      "dependencies": []
-    },
     "Congzhi's C Plus Plus Series/Preprocessor in C++ (Part I, NC).md": {
-      "modifiedTime": 1747069980619,
-      "sourceSize": 22,
+      "modifiedTime": 1755687864124,
+      "sourceSize": 243,
       "exportedPath": "congzhi's-c-plus-plus-series/preprocessor-in-c++-(part-i,-nc).html",
       "dependencies": []
     },
@@ -1768,14 +2047,14 @@
       "dependencies": []
     },
     "Congzhi's C Plus Plus Series/RAII and Scope in C++.md": {
-      "modifiedTime": 1747069980619,
-      "sourceSize": 8037,
+      "modifiedTime": 1755687864124,
+      "sourceSize": 8133,
       "exportedPath": "congzhi's-c-plus-plus-series/raii-and-scope-in-c++.html",
       "dependencies": []
     },
     "Congzhi's C Plus Plus Series/Smart Pointers in C++.md": {
-      "modifiedTime": 1747069980619,
-      "sourceSize": 13081,
+      "modifiedTime": 1755687864124,
+      "sourceSize": 24606,
       "exportedPath": "congzhi's-c-plus-plus-series/smart-pointers-in-c++.html",
       "dependencies": [
         "congzhi's-c-plus-plus-series/pics/pasted-image-20241023154500.png",
@@ -1803,12 +2082,6 @@
       "exportedPath": "congzhi's-c-plus-plus-series/standard-variant-in-c++.html",
       "dependencies": []
     },
-    "Congzhi's C Plus Plus Series/Static Casting & Reinterpret Casting in C++.md": {
-      "modifiedTime": 1747069980619,
-      "sourceSize": 144,
-      "exportedPath": "congzhi's-c-plus-plus-series/static-casting-&-reinterpret-casting-in-c++.html",
-      "dependencies": []
-    },
     "Congzhi's C Plus Plus Series/Static Dispatch in C++ (ENG).md": {
       "modifiedTime": 1747069980619,
       "sourceSize": 3265,
@@ -1816,8 +2089,8 @@
       "dependencies": []
     },
     "Congzhi's C Plus Plus Series/Static Keyword in C++.md": {
-      "modifiedTime": 1747069980619,
-      "sourceSize": 7402,
+      "modifiedTime": 1755687864124,
+      "sourceSize": 7135,
       "exportedPath": "congzhi's-c-plus-plus-series/static-keyword-in-c++.html",
       "dependencies": []
     },
@@ -1878,28 +2151,10 @@
       "exportedPath": "congzhi's-c-plus-plus-series/the-pimpl-idiom-in-c++-(eng).html",
       "dependencies": []
     },
-    "Congzhi's C Plus Plus Series/The Rule of Five in C++.md": {
-      "modifiedTime": 1747069980619,
-      "sourceSize": 5664,
-      "exportedPath": "congzhi's-c-plus-plus-series/the-rule-of-five-in-c++.html",
-      "dependencies": []
-    },
     "Congzhi's C Plus Plus Series/This Keyword in C++ (ENG).md": {
       "modifiedTime": 1747069980619,
       "sourceSize": 3189,
       "exportedPath": "congzhi's-c-plus-plus-series/this-keyword-in-c++-(eng).html",
-      "dependencies": []
-    },
-    "Congzhi's C Plus Plus Series/Type Deduce - Auto in C++.md": {
-      "modifiedTime": 1747069980619,
-      "sourceSize": 2911,
-      "exportedPath": "congzhi's-c-plus-plus-series/type-deduce-auto-in-c++.html",
-      "dependencies": []
-    },
-    "Congzhi's C Plus Plus Series/Type Deduce - Decltype in C++.md": {
-      "modifiedTime": 1747069980619,
-      "sourceSize": 2020,
-      "exportedPath": "congzhi's-c-plus-plus-series/type-deduce-decltype-in-c++.html",
       "dependencies": []
     },
     "Congzhi's C Plus Plus Series/Typename Keyword in C++ (ENG).md": {
@@ -1923,8 +2178,8 @@
       "dependencies": []
     },
     "Congzhi's C Plus Plus Series/Virtual Dispatch in C++.md": {
-      "modifiedTime": 1747069980619,
-      "sourceSize": 25690,
+      "modifiedTime": 1755687864124,
+      "sourceSize": 26894,
       "exportedPath": "congzhi's-c-plus-plus-series/virtual-dispatch-in-c++.html",
       "dependencies": [
         "congzhi's-c-plus-plus-series/pics/vtable.png",
@@ -1940,8 +2195,8 @@
       ]
     },
     "Congzhi's C Plus Plus Series/Volatile Specifier in C++ (Questioning).md": {
-      "modifiedTime": 1747069980619,
-      "sourceSize": 555,
+      "modifiedTime": 1755687864124,
+      "sourceSize": 1237,
       "exportedPath": "congzhi's-c-plus-plus-series/volatile-specifier-in-c++-(questioning).html",
       "dependencies": []
     },
@@ -1967,12 +2222,6 @@
       "modifiedTime": 1747069980619,
       "sourceSize": 1220441,
       "exportedPath": "congzhi's-os-series/pics/computer_hardware.png",
-      "dependencies": []
-    },
-    "Congzhi's OS Series/pics/hhd.jpg": {
-      "modifiedTime": 1747069980619,
-      "sourceSize": 5891751,
-      "exportedPath": "congzhi's-os-series/pics/hhd.jpg",
       "dependencies": []
     },
     "Congzhi's OS Series/pics/hyper.webp": {
@@ -3038,8 +3287,8 @@
       "dependencies": []
     },
     "Congzhi's OS Series/1. Introduction to Operating Systems.md": {
-      "modifiedTime": 1747069980619,
-      "sourceSize": 47763,
+      "modifiedTime": 1755687864124,
+      "sourceSize": 49305,
       "exportedPath": "congzhi's-os-series/1.-introduction-to-operating-systems.html",
       "dependencies": [
         "congzhi's-os-series/pics/computer_hardware.png",
@@ -3051,8 +3300,8 @@
       ]
     },
     "Congzhi's OS Series/2. Evolution of Operating Systems.md": {
-      "modifiedTime": 1747069980619,
-      "sourceSize": 22005,
+      "modifiedTime": 1755687864124,
+      "sourceSize": 23169,
       "exportedPath": "congzhi's-os-series/2.-evolution-of-operating-systems.html",
       "dependencies": [
         "congzhi's-os-series/pics/migration_of_os_concepts_and_features.png",
@@ -3140,8 +3389,8 @@
       ]
     },
     "Congzhi's OS Series/8. Threads and Concurrency.md": {
-      "modifiedTime": 1747069980619,
-      "sourceSize": 68079,
+      "modifiedTime": 1755687864124,
+      "sourceSize": 68255,
       "exportedPath": "congzhi's-os-series/8.-threads-and-concurrency.html",
       "dependencies": [
         "congzhi's-os-series/pics/pasted-image-20241203220443.jpg",
@@ -3159,7 +3408,7 @@
       ]
     },
     "Congzhi's OS Series/9. CPU Scheduling.md": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 76063,
       "exportedPath": "congzhi's-os-series/9.-cpu-scheduling.html",
       "dependencies": [
@@ -3176,8 +3425,8 @@
       ]
     },
     "Congzhi's OS Series/10. Synchronization and Mutex.md": {
-      "modifiedTime": 1747069980619,
-      "sourceSize": 76514,
+      "modifiedTime": 1755687864124,
+      "sourceSize": 76496,
       "exportedPath": "congzhi's-os-series/10.-synchronization-and-mutex.html",
       "dependencies": [
         "congzhi's-os-series/pics/this_is_fine.jpg",
@@ -3206,15 +3455,9 @@
         "congzhi's-os-series/pics/pasted-image-20240723182429.png"
       ]
     },
-    "Congzhi's OS Series/11.x A Thread Pool Library in C++.md": {
-      "modifiedTime": 1747069980619,
-      "sourceSize": 3791,
-      "exportedPath": "congzhi's-os-series/11.x-a-thread-pool-library-in-c++.html",
-      "dependencies": []
-    },
     "Congzhi's OS Series/12. Memory Management.md": {
-      "modifiedTime": 1747069980619,
-      "sourceSize": 73680,
+      "modifiedTime": 1755687864124,
+      "sourceSize": 73836,
       "exportedPath": "congzhi's-os-series/12.-memory-management.html",
       "dependencies": [
         "congzhi's-os-series/pics/pasted-image-20240728054403.png",
@@ -3285,11 +3528,10 @@
       "dependencies": []
     },
     "Congzhi's OS Series/15. File Systems.md": {
-      "modifiedTime": 1747069980619,
-      "sourceSize": 91630,
+      "modifiedTime": 1755687864124,
+      "sourceSize": 91617,
       "exportedPath": "congzhi's-os-series/15.-file-systems.html",
       "dependencies": [
-        "congzhi's-os-series/pics/hhd.jpg",
         "congzhi's-os-series/pics/ssd.jpg",
         "congzhi's-os-series/pics/pasted-image-20241126212945.jpg",
         "congzhi's-os-series/pics/pasted-image-20240824180225.png",
@@ -3321,8 +3563,8 @@
       ]
     },
     "Congzhi's OS Series/16. Asynchronous IO.md": {
-      "modifiedTime": 1747069980619,
-      "sourceSize": 51770,
+      "modifiedTime": 1755687864124,
+      "sourceSize": 51765,
       "exportedPath": "congzhi's-os-series/16.-asynchronous-io.html",
       "dependencies": []
     },
@@ -3339,8 +3581,8 @@
       ]
     },
     "Congzhi's OS Series/Congzhi's OS Series.md": {
-      "modifiedTime": 1747069980619,
-      "sourceSize": 3732,
+      "modifiedTime": 1755687864124,
+      "sourceSize": 4012,
       "exportedPath": "congzhi's-os-series/congzhi's-os-series.html",
       "dependencies": []
     },
@@ -3353,7 +3595,7 @@
       ]
     },
     "CS50 SQL/CS50 SQL.md": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 1447,
       "exportedPath": "cs50-sql/cs50-sql.html",
       "dependencies": []
@@ -3389,8 +3631,8 @@
       "dependencies": []
     },
     "CS50 SQL/Lecture 5 - Optimizing (NC).md": {
-      "modifiedTime": 1747069980619,
-      "sourceSize": 20380,
+      "modifiedTime": 1755687864124,
+      "sourceSize": 20395,
       "exportedPath": "cs50-sql/lecture-5-optimizing-(nc).html",
       "dependencies": []
     },
@@ -3413,8 +3655,8 @@
       "dependencies": []
     },
     "Data Structure and Algorithm/Data Structure and Algorithm.md": {
-      "modifiedTime": 1747069980619,
-      "sourceSize": 1221,
+      "modifiedTime": 1755687864124,
+      "sourceSize": 1231,
       "exportedPath": "data-structure-and-algorithm/data-structure-and-algorithm.html",
       "dependencies": []
     },
@@ -3428,18 +3670,6 @@
       "modifiedTime": 1747069980619,
       "sourceSize": 5297,
       "exportedPath": "data-structure-and-algorithm/ds.-b-tree.html",
-      "dependencies": []
-    },
-    "Data Structure and Algorithm/DS. Binary Tree.md": {
-      "modifiedTime": 1747069980619,
-      "sourceSize": 218,
-      "exportedPath": "data-structure-and-algorithm/ds.-binary-tree.html",
-      "dependencies": []
-    },
-    "Data Structure and Algorithm/DS. Bloom Filter.md": {
-      "modifiedTime": 1747069980619,
-      "sourceSize": 215,
-      "exportedPath": "data-structure-and-algorithm/ds.-bloom-filter.html",
       "dependencies": []
     },
     "Data Structure and Algorithm/DS. Hash Table.md": {
@@ -3557,8 +3787,8 @@
       "dependencies": []
     },
     "Let's GO/Let's GO.md": {
-      "modifiedTime": 1747069980619,
-      "sourceSize": 68,
+      "modifiedTime": 1755687864124,
+      "sourceSize": 739,
       "exportedPath": "let's-go/let's-go.html",
       "dependencies": []
     },
@@ -3639,7 +3869,7 @@
       ]
     },
     "Networks/Networks.md": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 628,
       "exportedPath": "networks/networks.html",
       "dependencies": []
@@ -3738,8 +3968,8 @@
       "dependencies": []
     },
     "Some Notes/存储器扩展技术.md": {
-      "modifiedTime": 1747069980619,
-      "sourceSize": 6158,
+      "modifiedTime": 1755687864124,
+      "sourceSize": 6209,
       "exportedPath": "some-notes/存储器扩展技术.html",
       "dependencies": [
         "some-notes/pics/pasted-image-20240812173423.png",
@@ -3759,26 +3989,26 @@
       ]
     },
     "Some Notes/Cache Pitfalls.md": {
-      "modifiedTime": 1747069980619,
-      "sourceSize": 7903,
+      "modifiedTime": 1755687864124,
+      "sourceSize": 7963,
       "exportedPath": "some-notes/cache-pitfalls.html",
       "dependencies": []
     },
     "Some Notes/Getting Started with Swiftly on Linux.md": {
-      "modifiedTime": 1747069980619,
-      "sourceSize": 3022,
+      "modifiedTime": 1755687864124,
+      "sourceSize": 3053,
       "exportedPath": "some-notes/getting-started-with-swiftly-on-linux.html",
       "dependencies": []
     },
     "Some Notes/Intro to Algorithm.md": {
-      "modifiedTime": 1747069980619,
-      "sourceSize": 4204,
+      "modifiedTime": 1755687864124,
+      "sourceSize": 4203,
       "exportedPath": "some-notes/intro-to-algorithm.html",
       "dependencies": []
     },
     "Some Notes/ISA, Instructions and CPU.md": {
-      "modifiedTime": 1747069980619,
-      "sourceSize": 5306,
+      "modifiedTime": 1755687864124,
+      "sourceSize": 5283,
       "exportedPath": "some-notes/isa,-instructions-and-cpu.html",
       "dependencies": []
     },
@@ -3795,8 +4025,8 @@
       "dependencies": []
     },
     "Some Notes/Some Notes.md": {
-      "modifiedTime": 1747069980619,
-      "sourceSize": 687,
+      "modifiedTime": 1755687864124,
+      "sourceSize": 730,
       "exportedPath": "some-notes/some-notes.html",
       "dependencies": []
     },
@@ -3807,42 +4037,24 @@
       "dependencies": []
     },
     "Some Notes/YOLO Env Config.md": {
-      "modifiedTime": 1747069980619,
-      "sourceSize": 24902,
+      "modifiedTime": 1755687864124,
+      "sourceSize": 25375,
       "exportedPath": "some-notes/yolo-env-config.html",
       "dependencies": [
         "some-notes/pics/cuda_version.png",
         "some-notes/pics/pasted-image-20250318224527.png"
       ]
     },
-    "Swift Learning of Swift/Lecture 1 - Getting Started with SwiftUI.md": {
-      "modifiedTime": 1747069980619,
-      "sourceSize": 2048,
-      "exportedPath": "swift-learning-of-swift/lecture-1-getting-started-with-swiftui.html",
-      "dependencies": []
-    },
     "Swift Learning of Swift/Swift Learning of Swift.md": {
-      "modifiedTime": 1747069980619,
-      "sourceSize": 1303,
+      "modifiedTime": 1755687864124,
+      "sourceSize": 1005,
       "exportedPath": "swift-learning-of-swift/swift-learning-of-swift.html",
       "dependencies": []
     },
-    "WebDev Made Easy!/WebDev Made Easy!.md": {
-      "modifiedTime": 1747069980619,
-      "sourceSize": 69,
-      "exportedPath": "webdev-made-easy!/webdev-made-easy!.html",
-      "dependencies": []
-    },
     "Home Sweet Home.md": {
-      "modifiedTime": 1747069980619,
-      "sourceSize": 2269,
+      "modifiedTime": 1755687864124,
+      "sourceSize": 2529,
       "exportedPath": "home-sweet-home.html",
-      "dependencies": []
-    },
-    "Pasted image 20250322033111.png": {
-      "modifiedTime": 1747069980619,
-      "sourceSize": 234488,
-      "exportedPath": "pasted-image-20250322033111.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20250322033111.png": {
@@ -4392,7 +4604,7 @@
       "dependencies": []
     },
     "congzhi's-c-plus-plus-series/pics/call_stack.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 80682,
       "exportedPath": "congzhi's-c-plus-plus-series/pics/call_stack.png",
       "dependencies": []
@@ -4404,115 +4616,115 @@
       "dependencies": []
     },
     "congzhi's-c-plus-plus-series/pics/std_ascii.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 225084,
       "exportedPath": "congzhi's-c-plus-plus-series/pics/std_ascii.png",
       "dependencies": []
     },
     "congzhi's-c-plus-plus-series/pics/string_literal.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 99478,
       "exportedPath": "congzhi's-c-plus-plus-series/pics/string_literal.png",
       "dependencies": []
     },
     "congzhi's-c-plus-plus-series/pics/pasted-image-20250225102217.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 28095,
       "exportedPath": "congzhi's-c-plus-plus-series/pics/pasted-image-20250225102217.png",
       "dependencies": []
     },
     "congzhi's-c-plus-plus-series/pics/linked_block.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 22700,
       "exportedPath": "congzhi's-c-plus-plus-series/pics/linked_block.png",
       "dependencies": []
     },
     "congzhi's-c-plus-plus-series/pics/malloc_map.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 68307,
       "exportedPath": "congzhi's-c-plus-plus-series/pics/malloc_map.png",
       "dependencies": []
     },
     "congzhi's-c-plus-plus-series/pics/pasted-image-20250111194242.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 45416,
       "exportedPath": "congzhi's-c-plus-plus-series/pics/pasted-image-20250111194242.png",
       "dependencies": []
     },
     "congzhi's-c-plus-plus-series/pics/pasted-image-20250111204014.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 61379,
       "exportedPath": "congzhi's-c-plus-plus-series/pics/pasted-image-20250111204014.png",
       "dependencies": []
     },
     "congzhi's-c-plus-plus-series/pics/pasted-image-20250111204033.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 44412,
       "exportedPath": "congzhi's-c-plus-plus-series/pics/pasted-image-20250111204033.png",
       "dependencies": []
     },
     "congzhi's-c-plus-plus-series/pics/pasted-image-20241023154500.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 72947,
       "exportedPath": "congzhi's-c-plus-plus-series/pics/pasted-image-20241023154500.png",
       "dependencies": []
     },
     "congzhi's-c-plus-plus-series/pics/pasted-image-20241023153930.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 65631,
       "exportedPath": "congzhi's-c-plus-plus-series/pics/pasted-image-20241023153930.png",
       "dependencies": []
     },
     "congzhi's-c-plus-plus-series/pics/pasted-image-20241023154839.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 96476,
       "exportedPath": "congzhi's-c-plus-plus-series/pics/pasted-image-20241023154839.png",
       "dependencies": []
     },
     "congzhi's-c-plus-plus-series/pics/pasted-image-20241023155605.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 87991,
       "exportedPath": "congzhi's-c-plus-plus-series/pics/pasted-image-20241023155605.png",
       "dependencies": []
     },
     "congzhi's-c-plus-plus-series/pics/pasted-image-20241024004507.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 108363,
       "exportedPath": "congzhi's-c-plus-plus-series/pics/pasted-image-20241024004507.png",
       "dependencies": []
     },
     "congzhi's-c-plus-plus-series/pics/pasted-image-20241024005717.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 141320,
       "exportedPath": "congzhi's-c-plus-plus-series/pics/pasted-image-20241024005717.png",
       "dependencies": []
     },
     "congzhi's-c-plus-plus-series/pics/pasted-image-20241024015023.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 123374,
       "exportedPath": "congzhi's-c-plus-plus-series/pics/pasted-image-20241024015023.png",
       "dependencies": []
     },
     "congzhi's-c-plus-plus-series/pics/pasted-image-20241024145414.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 73696,
       "exportedPath": "congzhi's-c-plus-plus-series/pics/pasted-image-20241024145414.png",
       "dependencies": []
     },
     "congzhi's-c-plus-plus-series/pics/pasted-image-20241024145703.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 62378,
       "exportedPath": "congzhi's-c-plus-plus-series/pics/pasted-image-20241024145703.png",
       "dependencies": []
     },
     "congzhi's-c-plus-plus-series/pics/pasted-image-20241214224127.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 164941,
       "exportedPath": "congzhi's-c-plus-plus-series/pics/pasted-image-20241214224127.png",
       "dependencies": []
     },
     "congzhi's-c-plus-plus-series/pics/pasted-image-20241214224219.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 160065,
       "exportedPath": "congzhi's-c-plus-plus-series/pics/pasted-image-20241214224219.png",
       "dependencies": []
@@ -4536,7 +4748,7 @@
       "dependencies": []
     },
     "congzhi's-c-plus-plus-series/pics/vtable.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 651302,
       "exportedPath": "congzhi's-c-plus-plus-series/pics/vtable.png",
       "dependencies": []
@@ -4548,91 +4760,91 @@
       "dependencies": []
     },
     "congzhi's-os-series/pics/computer_hardware.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 1220441,
       "exportedPath": "congzhi's-os-series/pics/computer_hardware.png",
       "dependencies": []
     },
     "congzhi's-os-series/pics/pasted-image-20240405005008.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 29928,
       "exportedPath": "congzhi's-os-series/pics/pasted-image-20240405005008.png",
       "dependencies": []
     },
     "congzhi's-os-series/pics/os_user_view.jpg": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 152156,
       "exportedPath": "congzhi's-os-series/pics/os_user_view.jpg",
       "dependencies": []
     },
     "congzhi's-os-series/pics/storage_device_hierarchy.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 249309,
       "exportedPath": "congzhi's-os-series/pics/storage_device_hierarchy.png",
       "dependencies": []
     },
     "congzhi's-os-series/pics/memory_layout_multiprogramming.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 62981,
       "exportedPath": "congzhi's-os-series/pics/memory_layout_multiprogramming.png",
       "dependencies": []
     },
     "congzhi's-os-series/pics/speed_of_storage_hierarchy.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 509177,
       "exportedPath": "congzhi's-os-series/pics/speed_of_storage_hierarchy.png",
       "dependencies": []
     },
     "congzhi's-os-series/pics/migration_of_os_concepts_and_features.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 159606,
       "exportedPath": "congzhi's-os-series/pics/migration_of_os_concepts_and_features.png",
       "dependencies": []
     },
     "congzhi's-os-series/pics/mainframe_computer.jpg": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 255248,
       "exportedPath": "congzhi's-os-series/pics/mainframe_computer.jpg",
       "dependencies": []
     },
     "congzhi's-os-series/pics/ibm_701_console.jpg": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 102242,
       "exportedPath": "congzhi's-os-series/pics/ibm_701_console.jpg",
       "dependencies": []
     },
     "congzhi's-os-series/pics/ibm_704.jpg": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 150193,
       "exportedPath": "congzhi's-os-series/pics/ibm_704.jpg",
       "dependencies": []
     },
     "congzhi's-os-series/pics/resident_monitor.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 39771,
       "exportedPath": "congzhi's-os-series/pics/resident_monitor.png",
       "dependencies": []
     },
     "congzhi's-os-series/pics/batch_control_cards.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 100679,
       "exportedPath": "congzhi's-os-series/pics/batch_control_cards.png",
       "dependencies": []
     },
     "congzhi's-os-series/pics/offline_io.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 93918,
       "exportedPath": "congzhi's-os-series/pics/offline_io.png",
       "dependencies": []
     },
     "congzhi's-os-series/pics/pasted-image-20240912161341.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 147616,
       "exportedPath": "congzhi's-os-series/pics/pasted-image-20240912161341.png",
       "dependencies": []
     },
     "congzhi's-os-series/pics/pasted-image-20240912162841.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 101498,
       "exportedPath": "congzhi's-os-series/pics/pasted-image-20240912162841.png",
       "dependencies": []
@@ -4866,151 +5078,151 @@
       "dependencies": []
     },
     "congzhi's-os-series/pics/pasted-image-20241203220443.jpg": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 40415,
       "exportedPath": "congzhi's-os-series/pics/pasted-image-20241203220443.jpg",
       "dependencies": []
     },
     "congzhi's-os-series/pics/threads_parallelism_concurrency.jpg": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 44007,
       "exportedPath": "congzhi's-os-series/pics/threads_parallelism_concurrency.jpg",
       "dependencies": []
     },
     "congzhi's-os-series/pics/pasted-image-20241204003952.jpg": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 177667,
       "exportedPath": "congzhi's-os-series/pics/pasted-image-20241204003952.jpg",
       "dependencies": []
     },
     "congzhi's-os-series/pics/pasted-image-20241203215622.jpg": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 315947,
       "exportedPath": "congzhi's-os-series/pics/pasted-image-20241203215622.jpg",
       "dependencies": []
     },
     "congzhi's-os-series/pics/pasted-image-20241204011034.jpg": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 104982,
       "exportedPath": "congzhi's-os-series/pics/pasted-image-20241204011034.jpg",
       "dependencies": []
     },
     "congzhi's-os-series/pics/pasted-image-20241204011053.jpg": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 106465,
       "exportedPath": "congzhi's-os-series/pics/pasted-image-20241204011053.jpg",
       "dependencies": []
     },
     "congzhi's-os-series/pics/pasted-image-20241204011045.jpg": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 110380,
       "exportedPath": "congzhi's-os-series/pics/pasted-image-20241204011045.jpg",
       "dependencies": []
     },
     "congzhi's-os-series/pics/pasted-image-20241204011100.jpg": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 121444,
       "exportedPath": "congzhi's-os-series/pics/pasted-image-20241204011100.jpg",
       "dependencies": []
     },
     "congzhi's-os-series/pics/pasted-image-20241204011158.jpg": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 131662,
       "exportedPath": "congzhi's-os-series/pics/pasted-image-20241204011158.jpg",
       "dependencies": []
     },
     "congzhi's-os-series/pics/pasted-image-20250113014249.jpg": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 57743,
       "exportedPath": "congzhi's-os-series/pics/pasted-image-20250113014249.jpg",
       "dependencies": []
     },
     "congzhi's-os-series/pics/pasted-image-20240905160146.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 103519,
       "exportedPath": "congzhi's-os-series/pics/pasted-image-20240905160146.png",
       "dependencies": []
     },
     "congzhi's-os-series/pics/pasted-image-20250112233950.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 37411,
       "exportedPath": "congzhi's-os-series/pics/pasted-image-20250112233950.png",
       "dependencies": []
     },
     "congzhi's-os-series/pics/pasted-image-20240528012310.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 830001,
       "exportedPath": "congzhi's-os-series/pics/pasted-image-20240528012310.png",
       "dependencies": []
     },
     "congzhi's-os-series/pics/pasted-image-20250112184625.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 288754,
       "exportedPath": "congzhi's-os-series/pics/pasted-image-20250112184625.png",
       "dependencies": []
     },
     "congzhi's-os-series/pics/pasted-image-20241003233336.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 949025,
       "exportedPath": "congzhi's-os-series/pics/pasted-image-20241003233336.png",
       "dependencies": []
     },
     "congzhi's-os-series/pics/pasted-image-20241004014342.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 335016,
       "exportedPath": "congzhi's-os-series/pics/pasted-image-20241004014342.png",
       "dependencies": []
     },
     "congzhi's-os-series/pics/pasted-image-20241004021149.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 252197,
       "exportedPath": "congzhi's-os-series/pics/pasted-image-20241004021149.png",
       "dependencies": []
     },
     "congzhi's-os-series/pics/pasted-image-20250112055229.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 194308,
       "exportedPath": "congzhi's-os-series/pics/pasted-image-20250112055229.png",
       "dependencies": []
     },
     "congzhi's-os-series/pics/hyper.webp": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 7562,
       "exportedPath": "congzhi's-os-series/pics/hyper.webp",
       "dependencies": []
     },
     "congzhi's-os-series/pics/pasted-image-20250112042240.jpg": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 157182,
       "exportedPath": "congzhi's-os-series/pics/pasted-image-20250112042240.jpg",
       "dependencies": []
     },
     "congzhi's-os-series/pics/pasted-image-20250114004941.jpg": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 63087,
       "exportedPath": "congzhi's-os-series/pics/pasted-image-20250114004941.jpg",
       "dependencies": []
     },
     "congzhi's-os-series/pics/pasted-image-20250114013155.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 183943,
       "exportedPath": "congzhi's-os-series/pics/pasted-image-20250114013155.png",
       "dependencies": []
     },
     "congzhi's-os-series/pics/this_is_fine.jpg": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 302916,
       "exportedPath": "congzhi's-os-series/pics/this_is_fine.jpg",
       "dependencies": []
     },
     "congzhi's-os-series/pics/pasted-image-20240701005315.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 123886,
       "exportedPath": "congzhi's-os-series/pics/pasted-image-20240701005315.png",
       "dependencies": []
     },
     "congzhi's-os-series/pics/moba_game_begin.jpg": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 177034,
       "exportedPath": "congzhi's-os-series/pics/moba_game_begin.jpg",
       "dependencies": []
@@ -5100,229 +5312,229 @@
       "dependencies": []
     },
     "congzhi's-os-series/pics/pasted-image-20240728054403.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 966426,
       "exportedPath": "congzhi's-os-series/pics/pasted-image-20240728054403.png",
       "dependencies": []
     },
     "congzhi's-os-series/pics/pasted-image-20240729010510.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 159261,
       "exportedPath": "congzhi's-os-series/pics/pasted-image-20240729010510.png",
       "dependencies": []
     },
     "congzhi's-os-series/pics/pasted-image-20240729033616.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 78259,
       "exportedPath": "congzhi's-os-series/pics/pasted-image-20240729033616.png",
       "dependencies": []
     },
     "congzhi's-os-series/pics/pasted-image-20240729035023.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 518981,
       "exportedPath": "congzhi's-os-series/pics/pasted-image-20240729035023.png",
       "dependencies": []
     },
     "congzhi's-os-series/pics/pasted-image-20240729180635.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 230586,
       "exportedPath": "congzhi's-os-series/pics/pasted-image-20240729180635.png",
       "dependencies": []
     },
     "congzhi's-os-series/pics/pasted-image-20240729183709.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 231896,
       "exportedPath": "congzhi's-os-series/pics/pasted-image-20240729183709.png",
       "dependencies": []
     },
     "congzhi's-os-series/pics/pasted-image-20240729201529.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 267482,
       "exportedPath": "congzhi's-os-series/pics/pasted-image-20240729201529.png",
       "dependencies": []
     },
     "congzhi's-os-series/pics/pasted-image-20240729201908.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 223663,
       "exportedPath": "congzhi's-os-series/pics/pasted-image-20240729201908.png",
       "dependencies": []
     },
     "congzhi's-os-series/pics/pasted-image-20240730015834.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 605090,
       "exportedPath": "congzhi's-os-series/pics/pasted-image-20240730015834.png",
       "dependencies": []
     },
     "congzhi's-os-series/pics/pasted-image-20240730033638.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 814350,
       "exportedPath": "congzhi's-os-series/pics/pasted-image-20240730033638.png",
       "dependencies": []
     },
     "congzhi's-os-series/pics/pasted-image-20240730092536.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 136184,
       "exportedPath": "congzhi's-os-series/pics/pasted-image-20240730092536.png",
       "dependencies": []
     },
     "congzhi's-os-series/pics/pasted-image-20240730215541.jpg": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 89177,
       "exportedPath": "congzhi's-os-series/pics/pasted-image-20240730215541.jpg",
       "dependencies": []
     },
     "congzhi's-os-series/pics/pasted-image-20240730220832.jpg": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 68090,
       "exportedPath": "congzhi's-os-series/pics/pasted-image-20240730220832.jpg",
       "dependencies": []
     },
     "congzhi's-os-series/pics/pasted-image-20240730223332.jpg": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 75048,
       "exportedPath": "congzhi's-os-series/pics/pasted-image-20240730223332.jpg",
       "dependencies": []
     },
     "congzhi's-os-series/pics/pasted-image-20240730220817.jpg": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 84637,
       "exportedPath": "congzhi's-os-series/pics/pasted-image-20240730220817.jpg",
       "dependencies": []
     },
     "congzhi's-os-series/pics/pasted-image-20240730221149.jpg": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 83084,
       "exportedPath": "congzhi's-os-series/pics/pasted-image-20240730221149.jpg",
       "dependencies": []
     },
     "congzhi's-os-series/pics/pasted-image-20240801010828.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 333790,
       "exportedPath": "congzhi's-os-series/pics/pasted-image-20240801010828.png",
       "dependencies": []
     },
     "congzhi's-os-series/pics/pasted-image-20240730220934.jpg": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 88875,
       "exportedPath": "congzhi's-os-series/pics/pasted-image-20240730220934.jpg",
       "dependencies": []
     },
     "congzhi's-os-series/pics/pasted-image-20240801075550.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 198536,
       "exportedPath": "congzhi's-os-series/pics/pasted-image-20240801075550.png",
       "dependencies": []
     },
     "congzhi's-os-series/pics/pasted-image-20240801075704.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 63704,
       "exportedPath": "congzhi's-os-series/pics/pasted-image-20240801075704.png",
       "dependencies": []
     },
     "congzhi's-os-series/pics/pasted-image-20240805013618.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 241966,
       "exportedPath": "congzhi's-os-series/pics/pasted-image-20240805013618.png",
       "dependencies": []
     },
     "congzhi's-os-series/pics/pasted-image-20240801081814.jpg": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 583171,
       "exportedPath": "congzhi's-os-series/pics/pasted-image-20240801081814.jpg",
       "dependencies": []
     },
     "congzhi's-os-series/pics/pasted-image-20240805022104.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 412463,
       "exportedPath": "congzhi's-os-series/pics/pasted-image-20240805022104.png",
       "dependencies": []
     },
     "congzhi's-os-series/pics/pasted-image-20240924011424.jpg": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 71995,
       "exportedPath": "congzhi's-os-series/pics/pasted-image-20240924011424.jpg",
       "dependencies": []
     },
     "congzhi's-os-series/pics/pasted-image-20240814201027.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 66274,
       "exportedPath": "congzhi's-os-series/pics/pasted-image-20240814201027.png",
       "dependencies": []
     },
     "congzhi's-os-series/pics/pasted-image-20240814203923.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 32919,
       "exportedPath": "congzhi's-os-series/pics/pasted-image-20240814203923.png",
       "dependencies": []
     },
     "congzhi's-os-series/pics/pasted-image-20241123015750.jpg": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 48026,
       "exportedPath": "congzhi's-os-series/pics/pasted-image-20241123015750.jpg",
       "dependencies": []
     },
     "congzhi's-os-series/pics/pasted-image-20240923222601.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 39249,
       "exportedPath": "congzhi's-os-series/pics/pasted-image-20240923222601.png",
       "dependencies": []
     },
     "congzhi's-os-series/pics/pasted-image-20240923230804.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 9311,
       "exportedPath": "congzhi's-os-series/pics/pasted-image-20240923230804.png",
       "dependencies": []
     },
     "congzhi's-os-series/pics/pasted-image-20240923230816.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 11497,
       "exportedPath": "congzhi's-os-series/pics/pasted-image-20240923230816.png",
       "dependencies": []
     },
     "congzhi's-os-series/pics/pasted-image-20241112175054.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 247230,
       "exportedPath": "congzhi's-os-series/pics/pasted-image-20241112175054.png",
       "dependencies": []
     },
     "congzhi's-os-series/pics/pasted-image-20240808004636.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 196999,
       "exportedPath": "congzhi's-os-series/pics/pasted-image-20240808004636.png",
       "dependencies": []
     },
     "congzhi's-os-series/pics/pasted-image-20240924163417.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 39370,
       "exportedPath": "congzhi's-os-series/pics/pasted-image-20240924163417.png",
       "dependencies": []
     },
     "congzhi's-os-series/pics/pasted-image-20240925010529.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 134415,
       "exportedPath": "congzhi's-os-series/pics/pasted-image-20240925010529.png",
       "dependencies": []
     },
     "congzhi's-os-series/pics/pasted-image-20240925004924.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 46667,
       "exportedPath": "congzhi's-os-series/pics/pasted-image-20240925004924.png",
       "dependencies": []
     },
     "congzhi's-os-series/pics/pasted-image-20240924020957.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 309084,
       "exportedPath": "congzhi's-os-series/pics/pasted-image-20240924020957.png",
       "dependencies": []
     },
     "congzhi's-os-series/pics/pasted-image-20240924021026.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 261414,
       "exportedPath": "congzhi's-os-series/pics/pasted-image-20240924021026.png",
       "dependencies": []
     },
     "congzhi's-os-series/pics/pasted-image-20240924023629.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 349399,
       "exportedPath": "congzhi's-os-series/pics/pasted-image-20240924023629.png",
       "dependencies": []
@@ -5412,163 +5624,163 @@
       "dependencies": []
     },
     "congzhi's-os-series/pics/ssd.jpg": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 1625526,
       "exportedPath": "congzhi's-os-series/pics/ssd.jpg",
       "dependencies": []
     },
     "congzhi's-os-series/pics/pasted-image-20241126212945.jpg": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 394296,
       "exportedPath": "congzhi's-os-series/pics/pasted-image-20241126212945.jpg",
       "dependencies": []
     },
     "congzhi's-os-series/pics/pasted-image-20240824180225.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 185398,
       "exportedPath": "congzhi's-os-series/pics/pasted-image-20240824180225.png",
       "dependencies": []
     },
     "congzhi's-os-series/pics/pasted-image-20240824184231.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 213703,
       "exportedPath": "congzhi's-os-series/pics/pasted-image-20240824184231.png",
       "dependencies": []
     },
     "congzhi's-os-series/pics/pasted-image-20241127205724.jpg": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 81687,
       "exportedPath": "congzhi's-os-series/pics/pasted-image-20241127205724.jpg",
       "dependencies": []
     },
     "congzhi's-os-series/pics/pasted-image-20241128230955.jpg": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 218319,
       "exportedPath": "congzhi's-os-series/pics/pasted-image-20241128230955.jpg",
       "dependencies": []
     },
     "congzhi's-os-series/pics/pasted-image-20241018011136.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 109809,
       "exportedPath": "congzhi's-os-series/pics/pasted-image-20241018011136.png",
       "dependencies": []
     },
     "congzhi's-os-series/pics/pasted-image-20241202010255.jpg": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 81941,
       "exportedPath": "congzhi's-os-series/pics/pasted-image-20241202010255.jpg",
       "dependencies": []
     },
     "congzhi's-os-series/pics/pasted-image-20241202010304.jpg": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 119437,
       "exportedPath": "congzhi's-os-series/pics/pasted-image-20241202010304.jpg",
       "dependencies": []
     },
     "congzhi's-os-series/pics/pasted-image-20241202010310.jpg": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 215062,
       "exportedPath": "congzhi's-os-series/pics/pasted-image-20241202010310.jpg",
       "dependencies": []
     },
     "congzhi's-os-series/pics/pasted-image-20241202010318.jpg": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 90432,
       "exportedPath": "congzhi's-os-series/pics/pasted-image-20241202010318.jpg",
       "dependencies": []
     },
     "congzhi's-os-series/pics/pasted-image-20241202231218.jpg": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 117202,
       "exportedPath": "congzhi's-os-series/pics/pasted-image-20241202231218.jpg",
       "dependencies": []
     },
     "congzhi's-os-series/pics/pasted-image-20240831003914.jpg": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 86773,
       "exportedPath": "congzhi's-os-series/pics/pasted-image-20240831003914.jpg",
       "dependencies": []
     },
     "congzhi's-os-series/pics/pasted-image-20241202002753.jpg": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 43057,
       "exportedPath": "congzhi's-os-series/pics/pasted-image-20241202002753.jpg",
       "dependencies": []
     },
     "congzhi's-os-series/pics/pasted-image-20241202002801.jpg": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 77366,
       "exportedPath": "congzhi's-os-series/pics/pasted-image-20241202002801.jpg",
       "dependencies": []
     },
     "congzhi's-os-series/pics/pasted-image-20240825132025.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 596855,
       "exportedPath": "congzhi's-os-series/pics/pasted-image-20240825132025.png",
       "dependencies": []
     },
     "congzhi's-os-series/pics/pasted-image-20240825132044.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 627365,
       "exportedPath": "congzhi's-os-series/pics/pasted-image-20240825132044.png",
       "dependencies": []
     },
     "congzhi's-os-series/pics/pasted-image-20240825132254.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 886847,
       "exportedPath": "congzhi's-os-series/pics/pasted-image-20240825132254.png",
       "dependencies": []
     },
     "congzhi's-os-series/pics/pasted-image-20241128030948.jpg": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 134456,
       "exportedPath": "congzhi's-os-series/pics/pasted-image-20241128030948.jpg",
       "dependencies": []
     },
     "congzhi's-os-series/pics/pasted-image-20240826135306.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 13310,
       "exportedPath": "congzhi's-os-series/pics/pasted-image-20240826135306.png",
       "dependencies": []
     },
     "congzhi's-os-series/pics/pasted-image-20240826135310.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 21978,
       "exportedPath": "congzhi's-os-series/pics/pasted-image-20240826135310.png",
       "dependencies": []
     },
     "congzhi's-os-series/pics/pasted-image-20240826173012.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 60569,
       "exportedPath": "congzhi's-os-series/pics/pasted-image-20240826173012.png",
       "dependencies": []
     },
     "congzhi's-os-series/pics/pasted-image-20240825132134.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 200622,
       "exportedPath": "congzhi's-os-series/pics/pasted-image-20240825132134.png",
       "dependencies": []
     },
     "congzhi's-os-series/pics/pasted-image-20241205203358.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 129266,
       "exportedPath": "congzhi's-os-series/pics/pasted-image-20241205203358.png",
       "dependencies": []
     },
     "congzhi's-os-series/pics/pasted-image-20240825181709.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 547307,
       "exportedPath": "congzhi's-os-series/pics/pasted-image-20240825181709.png",
       "dependencies": []
     },
     "congzhi's-os-series/pics/pasted-image-20241207162851.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 4551,
       "exportedPath": "congzhi's-os-series/pics/pasted-image-20241207162851.png",
       "dependencies": []
     },
     "congzhi's-os-series/pics/pasted-image-20241207225739.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 66849,
       "exportedPath": "congzhi's-os-series/pics/pasted-image-20241207225739.png",
       "dependencies": []
@@ -5634,13 +5846,13 @@
       "dependencies": []
     },
     "some-notes/pics/pasted-image-20240812173423.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 191185,
       "exportedPath": "some-notes/pics/pasted-image-20240812173423.png",
       "dependencies": []
     },
     "some-notes/pics/pasted-image-20240812172331.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 180953,
       "exportedPath": "some-notes/pics/pasted-image-20240812172331.png",
       "dependencies": []
@@ -5676,321 +5888,663 @@
       "dependencies": []
     },
     "some-notes/pics/cuda_version.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 69993,
       "exportedPath": "some-notes/pics/cuda_version.png",
       "dependencies": []
     },
     "some-notes/pics/pasted-image-20250318224527.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 214252,
       "exportedPath": "some-notes/pics/pasted-image-20250318224527.png",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 23377,
       "exportedPath": "lib/scripts/graph-wasm.wasm",
       "dependencies": []
     },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/6155340132a851f6089e.svg": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 315,
       "exportedPath": "lib/media/6155340132a851f6089e.svg",
       "dependencies": []
     },
     "lib/fonts/mathjax_zero.woff": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 1368,
       "exportedPath": "lib/fonts/mathjax_zero.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_main-regular.woff": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 34160,
       "exportedPath": "lib/fonts/mathjax_main-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_main-bold.woff": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 34464,
       "exportedPath": "lib/fonts/mathjax_main-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_math-italic.woff": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 19360,
       "exportedPath": "lib/fonts/mathjax_math-italic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_main-italic.woff": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 20832,
       "exportedPath": "lib/fonts/mathjax_main-italic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_math-bolditalic.woff": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 19776,
       "exportedPath": "lib/fonts/mathjax_math-bolditalic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size1-regular.woff": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 5792,
       "exportedPath": "lib/fonts/mathjax_size1-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size2-regular.woff": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 5464,
       "exportedPath": "lib/fonts/mathjax_size2-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size3-regular.woff": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 3244,
       "exportedPath": "lib/fonts/mathjax_size3-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size4-regular.woff": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 5148,
       "exportedPath": "lib/fonts/mathjax_size4-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_ams-regular.woff": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 40808,
       "exportedPath": "lib/fonts/mathjax_ams-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_calligraphic-regular.woff": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 9600,
       "exportedPath": "lib/fonts/mathjax_calligraphic-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_calligraphic-bold.woff": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 9908,
       "exportedPath": "lib/fonts/mathjax_calligraphic-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_fraktur-regular.woff": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 21480,
       "exportedPath": "lib/fonts/mathjax_fraktur-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_fraktur-bold.woff": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 22340,
       "exportedPath": "lib/fonts/mathjax_fraktur-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_sansserif-regular.woff": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 12660,
       "exportedPath": "lib/fonts/mathjax_sansserif-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_sansserif-bold.woff": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 15944,
       "exportedPath": "lib/fonts/mathjax_sansserif-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_sansserif-italic.woff": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 14628,
       "exportedPath": "lib/fonts/mathjax_sansserif-italic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_script-regular.woff": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 11852,
       "exportedPath": "lib/fonts/mathjax_script-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_typewriter-regular.woff": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 17604,
       "exportedPath": "lib/fonts/mathjax_typewriter-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_vector-regular.woff": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 1136,
       "exportedPath": "lib/fonts/mathjax_vector-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_vector-bold.woff": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 1116,
       "exportedPath": "lib/fonts/mathjax_vector-bold.woff",
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1747069980619,
-      "sourceSize": 201113,
+      "modifiedTime": 1755687864124,
+      "sourceSize": 214201,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/graph-view.js": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 15519,
       "exportedPath": "lib/scripts/graph-view.js",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 14021,
       "exportedPath": "lib/scripts/graph-wasm.js",
       "dependencies": []
     },
     "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 5179,
       "exportedPath": "lib/scripts/graph-render-worker.js",
       "dependencies": []
     },
     "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 29832,
       "exportedPath": "lib/scripts/tinycolor.js",
       "dependencies": []
     },
     "lib/scripts/pixi.js": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 449509,
       "exportedPath": "lib/scripts/pixi.js",
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 2048,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/scripts/graph-data.js": {
-      "modifiedTime": 1747069980619,
-      "sourceSize": 19130,
+      "modifiedTime": 1755687864124,
+      "sourceSize": 22687,
       "exportedPath": "lib/scripts/graph-data.js",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 138359,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/other-plugins.css": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 543,
       "exportedPath": "lib/styles/other-plugins.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 264,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1747069980619,
+      "modifiedTime": 1755687864124,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
+      "dependencies": []
+    },
+    "Building and Version Control/4. Release Build and Debug Build.md": {
+      "modifiedTime": 1755687864124,
+      "sourceSize": 180,
+      "exportedPath": "building-and-version-control/4.-release-build-and-debug-build.html",
+      "dependencies": []
+    },
+    "Building and Version Control/5. CMake.md": {
+      "modifiedTime": 1755687864124,
+      "sourceSize": 24,
+      "exportedPath": "building-and-version-control/5.-cmake.html",
+      "dependencies": []
+    },
+    "Building and Version Control/Git and Github - Part I.md": {
+      "modifiedTime": 1755687864124,
+      "sourceSize": 12002,
+      "exportedPath": "building-and-version-control/git-and-github-part-i.html",
+      "dependencies": []
+    },
+    "Building and Version Control/Git and Github - Part II.md": {
+      "modifiedTime": 1755687864124,
+      "sourceSize": 4290,
+      "exportedPath": "building-and-version-control/git-and-github-part-ii.html",
+      "dependencies": []
+    },
+    "Computer Architecture/Computer Architecture.md": {
+      "modifiedTime": 1755687864124,
+      "sourceSize": 695,
+      "exportedPath": "computer-architecture/computer-architecture.html",
+      "dependencies": []
+    },
+    "Computer Architecture/Modern CPU Evolution (ENG).md": {
+      "modifiedTime": 1755687864124,
+      "sourceSize": 5173,
+      "exportedPath": "computer-architecture/modern-cpu-evolution-(eng).html",
+      "dependencies": []
+    },
+    "Computer Architecture/NUMA Systems.md": {
+      "modifiedTime": 1755687864124,
+      "sourceSize": 4531,
+      "exportedPath": "computer-architecture/numa-systems.html",
+      "dependencies": []
+    },
+    "Congzhi's C Plus Plus Series/Branchless Programming Intro in C++ (ENG).md": {
+      "modifiedTime": 1755687864124,
+      "sourceSize": 5731,
+      "exportedPath": "congzhi's-c-plus-plus-series/branchless-programming-intro-in-c++-(eng).html",
+      "dependencies": []
+    },
+    "Congzhi's C Plus Plus Series/Command Design Pattern (NC).md": {
+      "modifiedTime": 1755687864124,
+      "sourceSize": 632,
+      "exportedPath": "congzhi's-c-plus-plus-series/command-design-pattern-(nc).html",
+      "dependencies": []
+    },
+    "Congzhi's C Plus Plus Series/Effective C++ - Prefer the Compiler to the Processor.md": {
+      "modifiedTime": 1755687864124,
+      "sourceSize": 10643,
+      "exportedPath": "congzhi's-c-plus-plus-series/effective-c++-prefer-the-compiler-to-the-processor.html",
+      "dependencies": []
+    },
+    "Congzhi's C Plus Plus Series/Enums in C++ (NC).md": {
+      "modifiedTime": 1755687864124,
+      "sourceSize": 22,
+      "exportedPath": "congzhi's-c-plus-plus-series/enums-in-c++-(nc).html",
+      "dependencies": []
+    },
+    "Congzhi's C Plus Plus Series/Generics Programming in C++ (NC).md": {
+      "modifiedTime": 1755687864124,
+      "sourceSize": 5593,
+      "exportedPath": "congzhi's-c-plus-plus-series/generics-programming-in-c++-(nc).html",
+      "dependencies": []
+    },
+    "Congzhi's C Plus Plus Series/Google C++ Style Guide.md": {
+      "modifiedTime": 1755687864124,
+      "sourceSize": 2557,
+      "exportedPath": "congzhi's-c-plus-plus-series/google-c++-style-guide.html",
+      "dependencies": []
+    },
+    "Congzhi's C Plus Plus Series/GPU Programming in C++ (NC).md": {
+      "modifiedTime": 1755687864124,
+      "sourceSize": 57,
+      "exportedPath": "congzhi's-c-plus-plus-series/gpu-programming-in-c++-(nc).html",
+      "dependencies": []
+    },
+    "Congzhi's C Plus Plus Series/Inheritance of Interface and Inheritance of Implementation in C++ (NC).md": {
+      "modifiedTime": 1755687864124,
+      "sourceSize": 62,
+      "exportedPath": "congzhi's-c-plus-plus-series/inheritance-of-interface-and-inheritance-of-implementation-in-c++-(nc).html",
+      "dependencies": []
+    },
+    "Congzhi's C Plus Plus Series/Know Your Hardware - Modern CPU Architecture.md": {
+      "modifiedTime": 1755687864124,
+      "sourceSize": 10409,
+      "exportedPath": "congzhi's-c-plus-plus-series/know-your-hardware-modern-cpu-architecture.html",
+      "dependencies": []
+    },
+    "Congzhi's C Plus Plus Series/Lock-Free Programming in C++ (ENG, NC).md": {
+      "modifiedTime": 1755687864124,
+      "sourceSize": 22,
+      "exportedPath": "congzhi's-c-plus-plus-series/lock-free-programming-in-c++-(eng,-nc).html",
+      "dependencies": []
+    },
+    "Congzhi's C Plus Plus Series/Networking - CS model (Abandoned).md": {
+      "modifiedTime": 1755687864124,
+      "sourceSize": 8972,
+      "exportedPath": "congzhi's-c-plus-plus-series/networking-cs-model-(abandoned).html",
+      "dependencies": []
+    },
+    "Congzhi's C Plus Plus Series/noexcept in C++ (ENG).md": {
+      "modifiedTime": 1755687864124,
+      "sourceSize": 3383,
+      "exportedPath": "congzhi's-c-plus-plus-series/noexcept-in-c++-(eng).html",
+      "dependencies": []
+    },
+    "Congzhi's C Plus Plus Series/Observer Pattern.md": {
+      "modifiedTime": 1755687864124,
+      "sourceSize": 22,
+      "exportedPath": "congzhi's-c-plus-plus-series/observer-pattern.html",
+      "dependencies": []
+    },
+    "Congzhi's C Plus Plus Series/Perfect Forwarding in C++.md": {
+      "modifiedTime": 1755687864124,
+      "sourceSize": 3934,
+      "exportedPath": "congzhi's-c-plus-plus-series/perfect-forwarding-in-c++.html",
+      "dependencies": []
+    },
+    "Congzhi's C Plus Plus Series/Post-Increment and Pre-Increment in C++ (NC).md": {
+      "modifiedTime": 1755687864124,
+      "sourceSize": 179,
+      "exportedPath": "congzhi's-c-plus-plus-series/post-increment-and-pre-increment-in-c++-(nc).html",
+      "dependencies": []
+    },
+    "Congzhi's C Plus Plus Series/RVO in C++ (ENG).md": {
+      "modifiedTime": 1755687864124,
+      "sourceSize": 1697,
+      "exportedPath": "congzhi's-c-plus-plus-series/rvo-in-c++-(eng).html",
+      "dependencies": []
+    },
+    "Congzhi's C Plus Plus Series/Singleton Pattern (NC).md": {
+      "modifiedTime": 1755687864124,
+      "sourceSize": 242,
+      "exportedPath": "congzhi's-c-plus-plus-series/singleton-pattern-(nc).html",
+      "dependencies": []
+    },
+    "Congzhi's C Plus Plus Series/SOLID Design Principles (NC).md": {
+      "modifiedTime": 1755687864124,
+      "sourceSize": 6100,
+      "exportedPath": "congzhi's-c-plus-plus-series/solid-design-principles-(nc).html",
+      "dependencies": []
+    },
+    "Congzhi's C Plus Plus Series/Static Casting & Reinterpret Casting in C++ (NC).md": {
+      "modifiedTime": 1755687864124,
+      "sourceSize": 369,
+      "exportedPath": "congzhi's-c-plus-plus-series/static-casting-&-reinterpret-casting-in-c++-(nc).html",
+      "dependencies": []
+    },
+    "Congzhi's C Plus Plus Series/The Rule of Five Idiom in C++.md": {
+      "modifiedTime": 1755687864124,
+      "sourceSize": 5610,
+      "exportedPath": "congzhi's-c-plus-plus-series/the-rule-of-five-idiom-in-c++.html",
+      "dependencies": []
+    },
+    "Congzhi's C Plus Plus Series/Type Deduction - Auto in C++.md": {
+      "modifiedTime": 1755687864124,
+      "sourceSize": 6291,
+      "exportedPath": "congzhi's-c-plus-plus-series/type-deduction-auto-in-c++.html",
+      "dependencies": []
+    },
+    "Congzhi's C Plus Plus Series/Type Deduction - Decltype in C++.md": {
+      "modifiedTime": 1755687864124,
+      "sourceSize": 3348,
+      "exportedPath": "congzhi's-c-plus-plus-series/type-deduction-decltype-in-c++.html",
+      "dependencies": []
+    },
+    "Congzhi's C Plus Plus Series/Type Deduction - Template Type Deduction.md": {
+      "modifiedTime": 1755687864124,
+      "sourceSize": 10221,
+      "exportedPath": "congzhi's-c-plus-plus-series/type-deduction-template-type-deduction.html",
+      "dependencies": []
+    },
+    "Congzhi's OS Series/Lecture 1 - Introduction.md": {
+      "modifiedTime": 1755687864124,
+      "sourceSize": 4179,
+      "exportedPath": "congzhi's-os-series/lecture-1-introduction.html",
+      "dependencies": []
+    },
+    "Congzhi's OS Series/Lecture 2 - RPC and Threads.md": {
+      "modifiedTime": 1755687864124,
+      "sourceSize": 1035,
+      "exportedPath": "congzhi's-os-series/lecture-2-rpc-and-threads.html",
+      "dependencies": []
+    },
+    "Data Structure and Algorithm/DS. Binary Tree (NC).md": {
+      "modifiedTime": 1755687864124,
+      "sourceSize": 218,
+      "exportedPath": "data-structure-and-algorithm/ds.-binary-tree-(nc).html",
+      "dependencies": []
+    },
+    "Data Structure and Algorithm/DS. Bloom Filter (NC).md": {
+      "modifiedTime": 1755687864124,
+      "sourceSize": 215,
+      "exportedPath": "data-structure-and-algorithm/ds.-bloom-filter-(nc).html",
+      "dependencies": []
+    },
+    "Let's GO/pics/deprecated go scheduler.png": {
+      "modifiedTime": 1755687864124,
+      "sourceSize": 345509,
+      "exportedPath": "let's-go/pics/deprecated-go-scheduler.png",
+      "dependencies": []
+    },
+    "Let's GO/A Tour of Go.md": {
+      "modifiedTime": 1755687864124,
+      "sourceSize": 26257,
+      "exportedPath": "let's-go/a-tour-of-go.html",
+      "dependencies": []
+    },
+    "Let's GO/GPM Model of Go.md": {
+      "modifiedTime": 1755687864124,
+      "sourceSize": 5230,
+      "exportedPath": "let's-go/gpm-model-of-go.html",
+      "dependencies": [
+        "let's-go/pics/deprecated-go-scheduler.png"
+      ]
+    },
+    "NUMA-Aware Thread Pool/Normal Thread Pool.md": {
+      "modifiedTime": 1755687864124,
+      "sourceSize": 23,
+      "exportedPath": "numa-aware-thread-pool/normal-thread-pool.html",
+      "dependencies": []
+    },
+    "NUMA-Aware Thread Pool/NUMA Wrapper.md": {
+      "modifiedTime": 1755687864124,
+      "sourceSize": 23,
+      "exportedPath": "numa-aware-thread-pool/numa-wrapper.html",
+      "dependencies": []
+    },
+    "NUMA-Aware Thread Pool/NUMA-Aware Thread Pool.md": {
+      "modifiedTime": 1755687864124,
+      "sourceSize": 68,
+      "exportedPath": "numa-aware-thread-pool/numa-aware-thread-pool.html",
+      "dependencies": []
+    },
+    "NUMA-Aware Thread Pool/pthread Wrapper.md": {
+      "modifiedTime": 1755687864124,
+      "sourceSize": 23,
+      "exportedPath": "numa-aware-thread-pool/pthread-wrapper.html",
+      "dependencies": []
+    },
+    "Some Notes/pics/convolution_process.png": {
+      "modifiedTime": 1755687864124,
+      "sourceSize": 273030,
+      "exportedPath": "some-notes/pics/convolution_process.png",
+      "dependencies": []
+    },
+    "Some Notes/pics/CUDA.png": {
+      "modifiedTime": 1755687864124,
+      "sourceSize": 170101,
+      "exportedPath": "some-notes/pics/cuda.png",
+      "dependencies": []
+    },
+    "Some Notes/pics/GPU_arch.png": {
+      "modifiedTime": 1755687864124,
+      "sourceSize": 179822,
+      "exportedPath": "some-notes/pics/gpu_arch.png",
+      "dependencies": []
+    },
+    "Some Notes/What is CUDA.md": {
+      "modifiedTime": 1755687864124,
+      "sourceSize": 6251,
+      "exportedPath": "some-notes/what-is-cuda.html",
+      "dependencies": [
+        "some-notes/pics/convolution_process.png",
+        "some-notes/pics/gpu_arch.png",
+        "some-notes/pics/cuda.png"
+      ]
+    },
+    "Some Notes/What is Tensors.md": {
+      "modifiedTime": 1755687864124,
+      "sourceSize": 2970,
+      "exportedPath": "some-notes/what-is-tensors.html",
+      "dependencies": []
+    },
+    "Swift Learning of Swift/Lecture I & II - Getting Started with SwiftUI.md": {
+      "modifiedTime": 1755687864124,
+      "sourceSize": 4168,
+      "exportedPath": "swift-learning-of-swift/lecture-i-&-ii-getting-started-with-swiftui.html",
+      "dependencies": []
+    },
+    "Swift Learning of Swift/Lecture III & IV - MVVM.md": {
+      "modifiedTime": 1755687864124,
+      "sourceSize": 1447,
+      "exportedPath": "swift-learning-of-swift/lecture-iii-&-iv-mvvm.html",
+      "dependencies": []
+    },
+    "Swift Learning of Swift/Protocol in Swift.md": {
+      "modifiedTime": 1755687864124,
+      "sourceSize": 24,
+      "exportedPath": "swift-learning-of-swift/protocol-in-swift.html",
+      "dependencies": []
+    },
+    "Swift Learning of Swift/Struct vs. Class in Swift.md": {
+      "modifiedTime": 1755687864124,
+      "sourceSize": 624,
+      "exportedPath": "swift-learning-of-swift/struct-vs.-class-in-swift.html",
+      "dependencies": []
+    },
+    "Swift Learning of Swift/Swift API Design Guidelines.md": {
+      "modifiedTime": 1755687864124,
+      "sourceSize": 71,
+      "exportedPath": "swift-learning-of-swift/swift-api-design-guidelines.html",
+      "dependencies": []
+    },
+    "Swift Learning of Swift/The Basics.md": {
+      "modifiedTime": 1755687864124,
+      "sourceSize": 2499,
+      "exportedPath": "swift-learning-of-swift/the-basics.html",
+      "dependencies": []
+    },
+    "let's-go/pics/deprecated-go-scheduler.png": {
+      "modifiedTime": 1755687864124,
+      "sourceSize": 345509,
+      "exportedPath": "let's-go/pics/deprecated-go-scheduler.png",
+      "dependencies": []
+    },
+    "some-notes/pics/convolution_process.png": {
+      "modifiedTime": 1755687864124,
+      "sourceSize": 273030,
+      "exportedPath": "some-notes/pics/convolution_process.png",
+      "dependencies": []
+    },
+    "some-notes/pics/gpu_arch.png": {
+      "modifiedTime": 1755687864124,
+      "sourceSize": 179822,
+      "exportedPath": "some-notes/pics/gpu_arch.png",
+      "dependencies": []
+    },
+    "some-notes/pics/cuda.png": {
+      "modifiedTime": 1755687864124,
+      "sourceSize": 170101,
+      "exportedPath": "some-notes/pics/cuda.png",
       "dependencies": []
     }
   }
